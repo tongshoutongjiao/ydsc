@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+    position: relative;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height:1.28rem;
+    background: #fff;
+}
+.myCart{
+    position: absolute;
+    left: 2.91rem;
+    bottom: 0.27rem;
+    color: #333;
+    font-size: 0.34rem;
+}
+.header p.greater{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.28rem;
+    font-size:0.31rem ;
+    color: #333;
+}
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/*content*/
+section .logo{
+    position: absolute;
+    left:2.78rem ;
+    top:2.97rem ;
+    width: 2rem;
+    height: 2rem;
+}
+section .logo img{
+    width: 100%;
+    height: 100%;
+}
+section div{
+    position: absolute;
+    font-size: 0.34rem;
+    color: #333;
+}
+section div:nth-child(3){
+    bottom: 3.52rem;
+    left:2.5rem ;
+}
+section div:nth-child(4){
+    bottom:3.08rem;
+    left: 1.4rem;
+}
+section div p{
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #fc3e32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>分类页面</title>
+    <link rel="stylesheet" href="./css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/评价.css">
+</head>
+<body>
+<section class="main" id="main">
+    <div class="header">
+        <p>&lt</p>
+        <ul class="goods">
+            <li>商品</li>
+            <li>详情</li>
+            <li class="selected">评价</li>
+        </ul>
+        <i></i>
+        <ul class="more">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+    <div class="contenter ">
+        <div>
+            <div class="contentHead">
+                <ul>
+                    <li class="select">全部评价</li>
+                    <li>好评</li>
+                    <li>中评</li>
+                    <li>差评</li>
+                </ul>
+            </div>
+            <div class="comment">
+                <div class="commentList">
+                    <div class="listHead">
+                        <i class="idIcon">
+                            <img src="./img/首页img/userId.png" alt="">
+                        </i>
+                        <p class="idName">倒******年</p>
+                        <p class="data">2016年10月31日</p>
+                    </div>
+                    <div class="listContent">
+                        <ul class="star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p>银点的商品物美价廉，味道非常好</p>
+                        <p>烧烤味</p>
+                        <p>购买日期：</p>
+                        <p>2016-10-28</p>
+                        <p><i class="message"></i>0</p>
+                        <p><i class="concern"></i>1</p>
+                        <ul class="comList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="commentList">
+                    <div class="listHead">
+                        <i class="idIcon"></i>
+                        <p class="idName">倒******年</p>
+                        <p class="data">2016年10月31日</p>
+                    </div>
+                    <div class="listContent">
+                        <ul class="star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p>银点的商品物美价廉，味道非常好</p>
+                        <p>烧烤味</p>
+                        <p>购买日期：</p>
+                        <p>2016-10-28</p>
+                        <p><i class="message"></i>0</p>
+                        <p><i class="concern"></i>1</p>
+                        <ul class="comList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="commentList">
+                    <div class="listHead">
+                        <i class="idIcon">
+                            <img src="./img/首页img/userId.png" alt="">
+                        </i>
+                        <p class="idName">倒******年</p>
+                        <p class="data">2016年10月31日</p>
+                    </div>
+                    <div class="listContent">
+                        <ul class="star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p>银点的商品物美价廉，味道非常好</p>
+                        <p>烧烤味</p>
+                        <p>购买日期：</p>
+                        <p>2016-10-28</p>
+                        <p><i class="message"></i>0</p>
+                        <p><i class="concern"></i>1</p>
+                        <ul class="comList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="lastIndex">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p> <i>4</i></p>
+        <ul>
+            <li class="select">
+                <a href="javascript:;">联系客服</a>
+            </li>
+            <li><a href="">关注</a></li>
+            <li><a href="javascript:;" class="myShoppingCart">购物车</a></li>
+            <li class="myCart"><a href="">加入购物车</a></li>
+        </ul>
+    </div>
+</section>
+<script type="text/javascript" charset="utf-8" src="js/zepto.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="./js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/iscroll-5.1.3.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/评价.js"></script>
+
+<script charset="UTF-8">
+    var $contenter=$('.contenter');
+    $contenter.css('height',document.documentElement.clientHeight-$('.header')[0].offsetHeight-$('.lastIndex')[0].offsetHeight);
+    var myScroll=new IScroll('.contenter');
+    var $cart=$('.myShoppingCart');
+    $cart.on('tap',function () {
+        window.location='./cart.html'
+    })
+</script>
+</body>
+</html>

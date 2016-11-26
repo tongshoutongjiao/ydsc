@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height:1.28rem;
+    background: #fff;
+}
+.myCart{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 0.27rem;
+    color: #333;
+    font-size: 0.34rem;
+}
+.header p.greater{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.28rem;
+    font-size:0.31rem ;
+    color: #333;
+}
+.content{
+    background: #f6f6f6;
+}
+.content .service{
+    position: relative;
+    height: 1.5rem;
+    border-bottom: 0.01rem solid #888;
+}
+.content .service i{
+    position: absolute;
+    left: 0.22rem;
+    top: 0.3rem;
+    width: 0.89rem;
+    height: 0.89rem;
+    background: url("../img/goods/yindian.png");
+    background-size: 0.89rem 0.89rem;
+}
+.content .service h2{
+    position: absolute;
+    top: 0.4rem;
+    left: 1.22rem;
+    font-size: 0.26rem;
+}
+.content .service p{
+    position: absolute;
+    font-size: 0.23rem;
+    left: 1.22rem;
+    bottom: 0.41rem;
+
+}
+.content .service p.data{
+    position: absolute;
+    top: 0.42rem;
+    left: 5.96rem;
+    font-size: 0.22rem;
+
+}
+

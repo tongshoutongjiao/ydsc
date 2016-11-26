@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.contenter{
+    position: relative;
+    overflow: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    font-size: .14rem;
+}
+
+/*header  */
+.header {
+    position: relative;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    background: #fff;
+}
+
+.search {
+    position: absolute;
+    top: 0.63rem;
+    left: 0.19rem;
+    width: 5.6rem;
+    height: 0.4rem;
+    padding-left: 0.4rem;
+    outline: none;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    background: #eee;
+    border-radius: 0.04rem;
+
+}
+.headList {
+    position: absolute;
+    top: 0.78rem;
+    right: 0.20rem;
+    overflow: hidden;
+    margin-left: 0.41rem;
+}
+.headList li {
+    float: left;
+    height: 0.1rem;
+    width: 0.1rem;
+    background: grey;
+    margin-right: 0.05rem;
+    border-radius: 50%;
+}
+/*contenter*/
+.contenter{
+    background: #f6f6f6;
+    width: 100%;
+}
+.selectBox{
+    position: relative;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+.selectBox:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.selectBox .SELECT{
+    position: absolute;
+    width: 5.1rem;
+    top: -0.08rem;
+    right: 0;
+
+}
+.hiddenBox{
+    position: absolute;
+    top:-0.53rem;
+    left: 1.8rem;
+    width: 5.28rem;
+    height: 4.93rem;
+    float: right;
+    margin-left: 0.12rem;
+}
+.selectBox ul{
+    float: left;
+    background: #f6f6f6;
+    width: 1.8rem;
+    height: auto;
+    text-align: center;
+    line-height: 0.9rem;
+    margin-right: 0.12rem;
+}
+.selectBox ul li{
+    width:1.8rem;
+    height: 0.9rem;
+    background: #ffffff;
+    border: 0.01rem solid #f6f6f6;
+    font-size: 0.2rem;
+    color: #333;
+}
+.selectBox ul li.selected{
+    background: #f6f6f6;
+}
+.selectThings{
+   /* position: relative;*/
+    background: #f6f6f6;
+    overflow: hidden;
+    margin-right: 0.18rem;
+}
+.selectHead{
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 5.1rem;
+    height: 0.7rem;
+    background: #f6f6f6;
+    font-size:0.21rem ;
+    color: #333;
+    line-height: 0.7rem;
+}
+.selectHead .candy{
+    float: left;
+}
+.selectHead .viewAll{
+    position:absolute ;
+    right: 0.2rem;
+    float: right;
+}
+.selectHead p{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.selectLast{
+    width: 5.1rem;
+    height: 4.26rem;
+    background: #fff;
+    overflow: hidden;
+}
+.selectLast div.lastList{
+    position: relative;
+    float: left;
+    width: 1.7rem;
+    height:2.13rem;
+}
+.selectLast div.lastList .sailList{
+    position: absolute;
+    bottom: 0.6rem;
+    width: 100%;
+    height: 1.7rem;
+    background:url("../img/default.gif") no-repeat center center #888888;
+}
+.selectLast div.lastList .sailList img{
+    width: 100%;
+    height: 100%;
+}
+
+.selectLast div.lastList a{
+    display: block;
+    position: absolute;
+    bottom:0.36rem ;
+    left: 0.35rem;
+    font-size: 0.22rem;
+}
+
+/*lastIndex*/
+.lastIndex{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-top: 0.01rem solid #9d9c9c;
+    line-height: 1rem;
+}
+.lastIndex ul{
+    overflow: hidden;
+    height: 1rem;
+    position: relative;
+}
+.lastIndex ul li{
+    float: left;
+    width: 0.6rem;
+    height: 0.64rem;
+    margin-right: 1.08rem;
+    line-height: 1rem;
+    font-size: 0.2rem;
+}
+.lastIndex ul li .lastIndexImg{
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    left: 0.55rem;
+    top: 0.17rem;
+}
+.lastIndex ul li .lastIndexImg img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li a{
+    position: absolute;
+    bottom: 0.17rem;
+    left:0.55rem;
+    height: 0.2rem;
+    width: 1.1rem;
+    font-size: 0.19rem;
+}
+.lastIndex ul li p.classic{
+    position: absolute;
+    top:0.2rem ;
+    left:2.46rem ;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.classic img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li p.classicCart{
+    position: absolute;
+    top: 0.2rem;
+    right: 2.47rem;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.classicCart img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li p.mine{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.57rem;
+    width: 0.33rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.mine img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul a{
+    position: absolute;
+    top: 0.3rem;
+    font-size: 0.2rem;
+}
+.lastIndex ul a:nth-child(5){
+    left: 0.55rem;
+}
+.lastIndex ul a:nth-child(6){
+    left: 2.45rem;
+}
+.lastIndex ul a:nth-child(7){
+    right: 2.38rem;
+}
+.lastIndex ul a:nth-child(8){
+    right: 0.57rem;
+}

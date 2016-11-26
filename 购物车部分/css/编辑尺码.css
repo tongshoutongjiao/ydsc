@@ -1,0 +1,504 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+    position: relative;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height:1.28rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #333;
+}
+.myCart{
+    position: absolute;
+    left: 2.7rem;
+    bottom: 0.27rem;
+    color: #333;
+    font-size: 0.34rem;
+}
+.header p.greater{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.28rem;
+    font-size:0.31rem ;
+    color: #333;
+}
+.header p.editor{
+    position: absolute;
+    right:0.2rem ;
+    bottom: 0.25rem;
+    color: #fc3e32;
+    font-size: 0.25rem;
+}
+.content{
+    overflow: hidden;
+}
+.content li {
+    position: relative;
+    width: 100%;
+    height: 2.99rem;
+    background: #ffffff;
+}
+.content li .listHead{
+    position: relative;
+    height: 0.8rem;
+    padding: 0 0.2rem 0 0.24rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.content input{
+    position: absolute;
+    top:0.25rem;
+    left:0.38rem;
+    border: none;
+}
+.content li .listHead .mark{
+    float: left;
+    position: absolute;
+    top:0.24rem;
+    left: 0.24rem;
+    display: block;
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    background: url("../img/goods/right.png") no-repeat center center ;
+
+    background-size: 0.32rem 0.32rem;
+    line-height: 0.8rem;
+}
+.content li .listHead .product{
+    position: absolute;
+    top:0.29rem;
+    left:0.76rem;
+    float: left;
+    margin-left: 0.2rem;
+    width: 2.44rem;
+    height: 0.2rem;
+}
+.content li .listHead .product i.more{
+    position: absolute;
+    height: 0;
+    right: 0;
+    font-size: 0.18rem;
+}
+.content li .listHead .coupon{
+    position: absolute;
+    top:0.3rem;
+    right: 0.2rem;
+    font-size: 0.2rem;
+}
+.content li .listContent{
+    position: relative;
+    background: #fafafa;
+    height: 2.19rem;
+    overflow: hidden;
+}
+.content li .listContent .mark{
+    position: absolute;
+    top:0.94rem;
+    left:0.24rem;
+    display: block;
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    background: url("../img/goods/right.png") no-repeat center center ;
+    background-size: 0.32rem 0.32rem;
+}
+.content li .listContent .listContentPicture{
+    position: absolute;
+    bottom: auto;
+    left:0.76rem;
+    width: 1.82rem;
+    height: 1.82rem;
+    margin: 0.22rem 0.22rem 0.19rem 0.2rem;
+    background-color: #888888;
+}
+.content li .listContent .listContentPicture img{
+    width: 100%;
+    height: 100%;
+}
+.content li .listContent .proDetail{
+    position: absolute;
+    margin-left: 0.18rem;
+    top:0.22rem;
+    right:0.2rem;
+    /*float: right;*/
+    width: 4rem;
+    height:1.79rem ;
+}
+
+.content li .listContent .proDetail .box{
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    height: 0.7rem;
+    width: 2.1rem;
+    background: #ddd;
+}
+
+.content li .listContent .proDetail .standard{
+    position: absolute;
+    bottom: 0.66rem;
+    line-height:0.3rem;
+    width: 1.1rem;
+    color: #888888;
+    font-size: 0.19rem;
+}
+.content li .listContent .proDetail .price span{
+    color: #fb7067;
+    font-size: 0.16rem;
+}
+.content li .listContent .proDetail .price span span{
+    font-size: 0.22rem;
+}
+.content li .listContent .proDetail .price s{
+    font-size: 0.16rem;
+    color: #333;
+}
+.content li .listContent .proDetail .price{
+    position: absolute;
+    bottom: 0.19rem;
+    width: 1.41rem;
+}
+.content li .listContent .proDetail .count{
+    position: absolute;
+    right:0.2rem;
+    bottom: 0.19rem;
+    width: 1.55rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    border: .01rem solid #888888;
+    border-radius: 0.02rem;
+}
+.content li .listContent .proDetail .count span{
+    display: block;
+    float: left;
+    text-align: center;
+    border-right:0.01rem solid #888 ;
+    vertical-align: center;
+}
+.content li .listContent .proDetail .count .flag{
+    width: 0.4rem;
+    height: 0.38rem;
+}
+.content li .listContent .proDetail .count .num{
+    width:0.71rem ;
+    height:0.38rem ;
+}
+.content li .listContent .proDetail .count .add{
+    border-right:none ;
+}
+/*allSelect*/
+.allSelect{
+    position: absolute;
+    bottom: -0.02rem;
+    height: 0.98rem;
+    background: #fff;
+    width: 100%;
+}
+.allSelect i.icon{
+    position: absolute;
+    top: 0.33rem;
+    left:0.24rem ;
+    width:0.32rem ;
+    height: 0.32rem;
+    background: url("../img/goods/circle.png");
+    background-size: 0.32rem 0.32rem;
+}
+.allSelect p{
+    position: absolute;
+}
+.allSelect p:nth-child(2){
+    top: 0.38rem;
+    left: 0.67rem;
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+.allSelect div.addCollect{
+    position: absolute;
+    top:0.14rem ;
+    right:1.7rem ;
+    width:1.36rem ;
+    height: 0.66rem;
+    border: 0.02rem solid #5b5b5b;
+    line-height:0.66rem ;
+    font-size:0.3rem ;
+    color: #333;
+    text-align: center;
+    border-radius: 0.03rem;
+}
+.allSelect div.delete{
+    position: absolute;
+    top:0.14rem ;
+    right: 0.2rem;
+    width:1.36rem ;
+    height: 0.66rem;
+    border: 0.02rem solid #fc3e32;
+    line-height:0.66rem ;
+    font-size:0.3rem ;
+    color: #fc3e32;
+    text-align: center;
+    border-radius: 0.03rem;
+}
+
+/*bounced*/
+.main{
+    position: relative;
+    opacity: 0.5;
+}
+.bounced{
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    width: 100%;
+    height: 5.98rem;
+}
+.bounced div:nth-child(1){
+    position: relative;
+    height:1.29rem;
+    width: 100%;
+    border-bottom: 0.01rem solid #888;
+}
+.bounced div:nth-child(1) div{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top:-0.83rem;
+    left: 0.15rem;
+    border-radius: 0.07rem;
+    border-bottom: 0;
+}
+.bounced div:nth-child(1) div img{
+    width: 100%;
+    height: 100%;
+}
+.bounced div:nth-child(1) p{
+    position: absolute;
+    left: 2.3rem;
+    top: 0.52rem;
+    display: inline-block;
+    font-size: 0.21rem;
+}
+.bounced div:nth-child(1) span{
+    position: absolute;
+    display: inline-block;
+    font-size: 0.16rem;
+    color: #ff2369;
+    left:2.3rem ;
+    top: 0.82rem;
+}
+.bounced div:nth-child(1) span i{
+    font-size: 0.23rem;
+}
+.selection{
+    height: 3.7rem;
+    background: #ffffff;
+    border-bottom: 0.02rem solid #f3f3f3;
+}
+.selection .part{
+    position:relative ;
+    height: 1.22rem;
+
+}
+.bounced .selection .part{
+    border-bottom: 0;
+}
+.bounced .selection .part p{
+    position: absolute;
+    left: 0.24rem;
+    top:0.27rem ;
+    font-size:0.22rem ;
+    color: #5b5b5b;
+}
+.bounced .selection .part ul{
+    position: absolute;
+    bottom:0;
+    left: 0.16rem;
+    height: 0.48rem;
+    border-bottom: 0;
+}
+.bounced .selection .part ul li{
+    float: left;
+    width: 1.08rem;
+    height:0.46rem ;
+    border-radius:0.02rem ;
+    border: 0.01rem solid #5b5b5b;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.19rem;
+    margin-right: 0.42rem;
+}
+.bounced .selection .part ul li.disabled{
+    color: #c1c1c1;
+    border: 0.01rem solid #c1c1c1;
+}
+.bounced .selection .part ul li.select{
+    background: #fc3e32;
+}
+.bounced .footer{
+    position: relative;
+    height: 0.94rem;
+
+}
+.bounced .footer div{
+    position: absolute;
+    left: 1.35rem;
+    font-size: 0.34rem;
+    margin-top :0.09rem;
+    width: 4.5rem;
+    height: 0.8rem;
+    background: #fc3e32;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius:0.07rem ;
+    color: #ffffff;
+}
+
+
+    /*lastIndex*/
+.lastIndex{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-top: 0.01rem solid #9d9c9c;
+    line-height: 1rem;
+}
+.lastIndex ul{
+    overflow: hidden;
+    height: 1rem;
+    position: relative;
+}
+.lastIndex ul li{
+    float: left;
+    width: 0.6rem;
+    height: 0.64rem;
+    margin-right: 1.08rem;
+    line-height: 1rem;
+    font-size: 0.2rem;
+}
+.lastIndex ul li:nth-child(3) p{
+    position: relative;
+}
+.lastIndex ul li:nth-child(3) p .icon{
+    position: absolute;
+    top: -0.1rem;
+    right: -0.15rem;
+    width:0.22rem ;
+    height:0.22rem;
+    border-radius:50%;
+    background: #fc3e32;
+    color: #ffffff;
+    line-height: 0.22rem;
+    text-align: center;
+    font-size: 0.16rem;
+}
+
+.lastIndex ul li .lastIndexImg{
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    left: 0.55rem;
+    top: 0.17rem;
+}
+.lastIndex ul li .lastIndexImg img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li a{
+    position: absolute;
+    bottom: 0.17rem;
+    left:0.55rem;
+    height: 0.2rem;
+    width: 1.1rem;
+    font-size: 0.19rem;
+}
+.lastIndex ul li p.classic{
+    position: absolute;
+    top:0.2rem ;
+    left:2.46rem ;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.classic img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li p.classicCart{
+    position: absolute;
+    top: 0.2rem;
+    right: 2.47rem;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.classicCart img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul li p.mine{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.57rem;
+    width: 0.33rem;
+    height: 0.38rem;
+}
+.lastIndex ul li p.mine img{
+    width: 100%;
+    height: 100%;
+}
+.lastIndex ul a{
+    position: absolute;
+    top: 0.3rem;
+    font-size: 0.2rem;
+}
+.lastIndex ul a:nth-child(5){
+    left: 0.55rem;
+}
+.lastIndex ul a:nth-child(6){
+    left: 2.45rem;
+}
+.lastIndex ul a:nth-child(7){
+    right: 2.38rem;
+}
+.lastIndex ul a:nth-child(8){
+    right: 0.57rem;
+}

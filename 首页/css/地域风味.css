@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.contenter{
+    position: relative;
+    overflow: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow: hidden;
+    -webkit-user-select: none;
+    color: #333;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    font-size: .14rem;
+}
+.header{
+    position: relative;
+    height: 1.28rem;
+    background: #fff;
+    font-size: 0.34rem;
+    margin-bottom: 0.01rem ;
+}
+.header h2{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 0.28rem;
+    font-size: 0.34rem;
+}
+.header i{
+    position: absolute;
+    left:0.24rem ;
+    bottom: 0.28rem;
+    font-size: 0.31rem;
+    font-style: normal;
+}
+.content{
+    height: 1000%;
+    background: #f6f6f6;
+}
+.content .contain ul.list{
+    overflow: hidden;
+    height:0.9rem;
+    background: #ffffff;
+    margin-bottom: 0.2rem;
+}
+.content .contain ul.list li{
+    float: left;
+    margin: 0.15rem 0.2rem 0.15rem 0.2rem;
+    width:1.74rem ;
+    height:0.6rem;
+    border-radius:0.06rem ;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #333;
+    font-size: 0.23rem;
+    background: #f6f6f6;
+}
+.content .contain ul.list li.select{
+    color: #ffffff;
+    background: #fc3e32;
+}
+
+
+
+
+
+
+
+
+.content .show ul{
+    overflow: hidden;
+}
+.content .show ul li{
+    float: left;
+    position: relative;
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-right: 0.02rem;
+    background: #ffffff;
+    padding:0.1rem 0.09rem 0.84rem 0.1rem ;
+    margin-bottom: 0.02rem;
+}
+.content .contain ul.list li{
+
+}
+.content ul li p.specific{
+    display: inline-block;
+    font-size: 0.21rem;
+    color: #333;
+}
+.content ul li p.price{
+    position: absolute;
+    bottom: 0.14rem;
+    left: 0.11rem;
+    display: inline-block;
+    font-size: 0.14rem;
+    color: #fc3e32;
+}
+.content ul li div{
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-bottom: 0.14rem;
+}
+.content ul li div img{
+    width: 100%;
+    height:100%;
+}
+.content ul li i.icon{
+    position: absolute;
+    right: 0.09rem;
+    bottom: 0.15rem;
+    width: 0.4rem;
+    height: 0.34rem;
+    background: url("../img/goods/加入购物车-拷贝_88.png");
+    background-size: 0.4rem 0.34rem;
+}
+
+
+

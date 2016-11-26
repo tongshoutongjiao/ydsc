@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+    outline: none;
+}
+
+html {
+    font-size: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+
+/*header*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 1.25rem;
+    background: #fff;
+    margin-bottom: 0.01rem;
+}
+
+.header .set {
+    position: relative;
+    top: 0.68rem;
+    left: 2.85rem;
+
+    font-size: 0.32rem;
+    color: #fc3e32;
+}
+
+.header .plus {
+    position: absolute;
+    top: 0.74rem;
+    left: 0.24rem;
+    color: #333333;
+    font-weight: bold;
+}
+/*content*/
+.content{
+    background: #f6f6f6;
+}
+.content .contentHead{
+    position: relative;
+    padding-left: 0.21rem;
+    padding-right: 0.21rem;
+    height: 0.8rem;
+    background: #ffffff;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+.content .contentHead p{
+    position: absolute;
+    height:0.8rem;
+    line-height: 0.8rem;
+    color: #696969;
+    font-size: 0.26rem;
+}
+.content .contentHead p.price{
+    position: absolute;
+    top: 0;
+    right: 0.21rem;
+   height: 0.8rem;
+    line-height: 0.8rem;
+    float: right;
+    font-size: 0.18rem;
+    color: #fc3e32;
+}
+.content .contentHead p.price i{
+    font-size: 0.22rem;
+}
+/*payStyle*/
+.payStyle{
+    background: #ffffff;
+}
+.payStyle .alipay{
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 0.02rem ;
+    height: 0.99rem;
+}
+.payStyle .alipay i.icon{
+    position: absolute;
+    border-radius: 0.08rem;
+    left: 0.2rem;
+    top:0.2rem ;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/goods/alipay.png") no-repeat center center;
+    background-size: 0.6rem 0.6rem;
+}
+/*.payStyle .alipay i.card{
+
+    background: url("../img/goods/alipay.png") no-repeat center center;
+}
+.payStyle .alipay i.Wechat{
+    background: url("../img/goods/alipay.png") no-repeat center center;
+
+}*/
+.payStyle .alipay p{
+    position: absolute;
+    left: 1.01rem;
+
+}
+.payStyle .alipay p:nth-child(2){
+    top:0.2rem;
+    font-size: 0.26rem;
+    color: #696969;
+}
+.payStyle .alipay p:nth-child(3){
+    bottom:0.14rem;
+    font-size: 0.22rem;
+    color:#a8a8a8 ;
+}
+.payStyle .alipay i:nth-child(4){
+   position: absolute;
+    top: 0.41rem;
+    right: 0.2rem;
+    font-size: 0.2rem;
+}
+
+
+
+
+

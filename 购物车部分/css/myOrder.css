@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+    outline: none;
+}
+
+html {
+    font-size: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+
+/*header*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 1.27rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #333333;
+}
+
+.header .set {
+    position: relative;
+    top: 0.68rem;
+    left: 2.85rem;
+
+    font-size: 0.32rem;
+    color: #fc3e32;
+}
+
+.header .plus {
+    position: absolute;
+    top: 0.74rem;
+    left: 0.24rem;
+    color: #333333;
+    font-weight: bold;
+}
+
+/*content*/
+.content {
+    width: 100%;
+    height: 100%;
+  /*  background-color: #fff;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.content .poster {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0.88rem;
+    padding-left: 0.25rem;
+    font-size: 0.26rem;
+    line-height: 0.88rem;
+    margin-bottom: 0.2rem;
+    background: #ffffff;
+}
+
+.content .number {
+    position: absolute;
+    top: 0;
+    left: 1.71rem;
+    line-height: 0.88rem;
+    font-size: 0.2rem;
+}
+
+.content .schedule {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-left: 0.25rem;
+    position: relative;
+}
+.content .schedule .trace{
+
+    font-size: 0.25rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    width: 100%;
+    border-bottom: 0.01rem solid #888888;
+}
+.content .schedule ul li{
+
+    position: relative;
+    height:0.8rem;
+    font-size: 0.22rem;
+    padding: 0.28rem 0.5rem 0.3rem 0.8rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+.content .schedule ul li .dot{
+    position: absolute;
+    top:0.3rem;
+    left:0.06rem;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #cdcdcd;
+}
+.content .schedule ul li p{
+    padding-top: 0.15rem;
+    line-height: 0.18rem;
+    font-size: 0.18rem;
+}
+.content .schedule .flag {
+    position: absolute;
+    left:0.38rem;
+    height: 1.28rem;
+    width: 0.02rem;
+    background: #cdcdcd;
+}
+.content .schedule .flag1{
+   top:1.5rem;
+}
+.content .schedule .flag2{
+   top:2.9rem;
+}.content .schedule .flag3{
+   top:4.3rem;
+}
+.content .schedule ul li.select{
+    color: #ff2369;
+}
+
+
+

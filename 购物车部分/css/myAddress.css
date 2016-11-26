@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+/*header*/
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 1.27rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #333333;
+}
+.header .set{
+    position: relative;
+    top:0.68rem;
+    left: 2.85rem;
+
+    font-size: 0.32rem;
+    color: #fc3e32;
+}
+.header p{
+    position: absolute;
+    top:0.74rem;
+    left:0.24rem;
+    color: #333333;
+}
+
+/*content*/
+.content{
+    width: 100%;
+    height: auto;
+
+}
+.content .contentList{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.content .contentList li{
+    position: relative;
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    padding-left: 0.26rem;
+    margin-top: 0.1rem;
+    background: #ffffff;
+    font-size: 0.26rem;
+}
+.content .contentList li .add{
+    position: absolute;
+    top:0;
+    right: 0.5rem;
+    font-size: 0.31rem;
+    width: 0.17rem;
+    color: #333333;
+    font-weight: bold;
+    line-height: 0.88rem;
+}
+.content .contentList .message{
+    position: absolute;
+    right:0.5rem;
+    top:0.22rem;
+    width:0.92rem ;
+    height:0.5rem;
+    line-height: 0.5rem;
+    border-radius: 0.22rem;
+    border: 0.01rem solid #aaa ;
+}
+.content .contentList li.option{
+    margin-top: 0;
+    border-top: 0.01rem solid #e5e5e5;
+}
+
+
+
+
+/*quit 退出登录*/
+.content .quit{
+    margin: 0.88rem auto;
+    width: 4.5rem;
+    color: white;
+    text-align: center;
+    font-size: 0.34rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: #fe5023;
+    border-radius: 0.36rem;
+}
+
+
+
+
+
+

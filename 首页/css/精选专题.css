@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.contenter{
+    position: relative;
+    overflow: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow: hidden;
+    -webkit-user-select: none;
+    color: #333;
+}
+
+#main {
+    position: relative;
+    margin: 0 auto;
+    font-size: .14rem;
+}
+.header{
+    position: relative;
+    padding-top: 0.67rem;
+    height: 0.61rem;
+    background: #fff;
+    font-size: 0.34rem;
+    margin-bottom: 0.2rem;
+}
+.header h2{
+    position: absolute;
+    display: inline-block;
+    left: 2.9rem;
+    font-size: 0.34rem;
+}
+.header i{
+    padding-left: 0.24rem;
+    display: inline-block;
+    font-style: normal;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+.content .contain .specific{
+    height: 4.91rem;
+    width: 100%;
+    background: #f6f6f6;
+}
+.content .contain .specific div{
+    padding: 0.2rem 0.1rem;
+    width: 7rem;
+    height: 2.4rem;
+    position: relative;
+    border: 0.04rem;
+}
+.content .contain .specific div img{
+    width: 7rem;
+    height:2.4rem;
+}
+.content .contain .specific div p{
+    position: absolute;
+    color: #ffffff;
+}
+.content .contain .specific div p:nth-child(2){
+    width: 1.5rem;
+    height: 0.53rem;
+    left:2.75rem ;
+    top:0.7rem ;
+    font-size:0.34rem ;
+    border-top:0.02rem solid #fff ;
+    border-bottom:0.02rem solid #fff ;
+
+}
+.content .contain .specific div h2:nth-child(3){
+    position: absolute;
+    color: #ffffff;
+   font-size: 0.26rem;
+    left:2.09rem ;
+    bottom:0.6rem ;
+}
+.content .contain .specific p{
+    margin-right: 0.29rem;
+    margin-left: 0.21rem;
+    font-size: 0.23rem;
+    line-height: 0.42rem;
+
+}
+
+
+
+.content .show ul{
+    overflow: hidden;
+}
+.content .show ul li{
+    float: left;
+    position: relative;
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-right: 0.02rem;
+    background: #ffffff;
+    padding:0.1rem 0.09rem 0.84rem 0.1rem ;
+    margin-bottom: 0.02rem;
+}
+.content .show ul li p.specific{
+    display: inline-block;
+    font-size: 0.21rem;
+    color: #333;
+}
+.content .show ul li p.price{
+    position: absolute;
+    bottom: 0.14rem;
+    left: 0.11rem;
+    display: inline-block;
+    font-size: 0.14rem;
+    color: #fc3e32;
+}
+.content .show ul li div{
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-bottom: 0.14rem;
+}
+.content .show ul li div img{
+    width: 100%;
+    height:100%;
+}
+.content .show ul li i.icon{
+    position: absolute;
+    right: 0.09rem;
+    bottom: 0.15rem;
+    width: 0.4rem;
+    height: 0.34rem;
+    background: url("../img/goods/加入购物车-拷贝_88.png");
+    background-size: 0.4rem 0.34rem;
+}
+
+
+
+

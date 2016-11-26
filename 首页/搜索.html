@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>搜索页面</title>
+    <link rel="stylesheet" href="./css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/搜索.css">
+</head>
+<body>
+<section class="main" id="main">
+    <div class="header">
+        <input class="search" id="search" type="text" placeholder="输入商品名称或关键字">
+        <p class="iconSearch"><img src="./img/首页img/iconsearch.png"></p>
+        <p class="cancel">取消</p>
+    </div>
+    <div class="contenter">
+        <div class="contain">
+            <div class="containHead">
+                <h4>热搜</h4>
+                <div class="container">
+                    <ul class="wrapper">
+                        <li class="slide">夏威夷果</li>
+                        <li class="slide">奶味山核桃</li>
+                        <li class="slide">椒盐杏仁</li>
+                        <li class="slide">椒盐杏仁</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="historySearch history">
+                历史搜索
+            </div>
+            <div class="historySearch list">
+                灌装山核桃
+            </div>
+            <div class="historySearch list">
+                原味碧根果
+            </div>
+            <div class="historySearch list">
+                核桃仁
+            </div>
+            <div class="historySearch list">
+                新疆特色风干牛肉干
+            </div>
+
+
+        </div>
+    </div>
+    <div class="clearSearch">
+        <p class="rubbish"></p>
+        <p>清空历史搜索</p>
+    </div>
+</section>
+<script type="text/javascript" charset="utf-8" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="css/utils.js"></script>
+<script charset="utf-8" type="text/javascript" src="./js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/iscroll-5.1.3.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/mySearch.js"></script>
+<script charset="UTF-8">
+    var $contenter=$('.contenter');
+    $contenter.css('height',document.documentElement.clientHeight-$('.header')[0].offsetHeight-$('.lastIndex')[0].clientHeight);
+    var myScroll=new IScroll('.contenter');
+    var $cart=$('.myShoppingCart');
+    $cart.on('tap',function () {
+        window.location='./cart.html'
+    })
+</script>
+</body>
+</html>

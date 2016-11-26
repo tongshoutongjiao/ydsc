@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+    outline: none;
+}
+
+html {
+    font-size: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+    position: relative;
+}
+/*header*/
+.header{
+    position: relative;
+    width: 100%;
+    height: 1.27rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #333333;
+}
+.header .set{
+    position: relative;
+    top:0.68rem;
+    left: 2.65rem;
+
+    font-size: 0.32rem;
+    color: #fc3e32;
+}
+.header p{
+    position: absolute;
+    top:0.74rem;
+    left:0.24rem;
+    color: #333333;
+}
+.content{
+    background: #f6f6f6;
+    width: 100%;
+    height:100%;
+    font-size: 0.24rem;
+}
+.content .contentHead{
+    background:#f6f6f6;
+    height: 1.31rem;
+    font-size:0.24rem ;
+    padding: 0.25rem 0.4rem 0.64rem 0.24rem;
+}
+.content .inputText{
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    border-bottom: 0.01rem solid #e5e5e5;
+
+}
+
+.content .inputText input{
+    width: 96%;
+    height: 1rem;
+    font-size: 0.26rem;
+    line-height:0.98rem;
+    border-top: none;
+    border-left: none;
+    padding-left:0.26rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+.content .inputTextL input{
+    border-bottom: none;
+}
+.content .inputText2 input{
+    margin-top: 0.2rem;
+
+}
+.content .inputText p{
+    top:0;
+    right:0.25rem;
+    position: absolute;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.23rem;
+    color: #ffad98;
+}
+.content .promise{
+    position: relative;
+    height: 0.98rem;
+    background: #ffffff;
+    padding-left: 0.7rem;
+    line-height: 0.98rem;
+    font-size: 0.27rem;
+    margin-top: 0.2rem;
+}
+.content .promise p{
+    position: absolute;
+    top:0.3rem;
+    left:0.25rem;
+    background: #ff2369;
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+}
+.content .read{
+    position: relative;
+    height: 0.5rem;
+    padding-left: 0.28rem;
+    line-height: 0.5rem;
+    font-size: 0.27rem;
+}
+.content .read input{
+    position: absolute;
+    top:0;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: block;
+}
+/*
+.content .read input:checked{
+    outline: 1px solid #fe5022;
+}
+*/
+
+.content .read span{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0.69rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.22rem;
+    color: #8c8c8c;
+}
+.content .read i{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 2.49rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.22rem;
+    color: #fe5022;
+}
+.submit{
+    position: absolute;
+    left:0.71rem;
+    top: 11.81rem;
+    display: block;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #ffffff;
+    width: 4.98rem;
+    height: 0.88rem;
+    font-size: 0.35rem;
+    background: #fc3e32;
+    border: none;
+    border-radius: 0.28rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*declare*/
+.declare{
+    position: absolute;
+    left: 1.3rem;
+    top:5.82rem;
+    width: 3.8rem;
+    height: 1.17rem;
+    color: #ffffff;
+    background: #7a7a7a;
+    line-height:1.17rem;
+    text-align: center;
+    font-size: 0.26rem;
+    border-radius: 0.14rem;
+}
+
+
+

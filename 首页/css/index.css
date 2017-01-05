@@ -143,7 +143,7 @@ html, body {
 /*timeShopping*/
 .timeShopping{
     height:2.4rem ;
-    width: 7.2rem;
+    width: 100%;
     margin-bottom: 0.2rem;
     overflow: hidden;
     background: #f6f6f6;
@@ -151,7 +151,7 @@ html, body {
 .timeShopping div{
     position: relative;
     float: left;
-    width:3.59rem ;
+    width:49%;
     height: 2.4rem;
     background: #ffffff;
 }

@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+    outline: none;
+}
+
+html {
+    font-size: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+
+/*header*/
+.header {
+    position: absolute;
+    top: 0rem;
+    bottom: 0.01rem;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+    margin-bottom: 0.02rem;
+}
+
+.header .set {
+    position: relative;
+    /* top: 0.4rem; */
+    left: 2.85rem;
+    line-height: 0.9rem;
+    font-size: 0.34rem;
+    color: #fc3e32;
+}
+
+.header .plus {
+    position: absolute;
+    top: 0rem;
+    left: 0.24rem;
+    width: 0.5rem;
+    color: #333333;
+    line-height: 0.9rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+/*wrapper*/
+.wrapper{
+    position: absolute;
+    top: 0.9rem;
+    bottom: 0.01rem;
+    width: 100%;
+    border-top: 0.01rem solid #f6f6f6;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+footer{
+    position: absolute;
+    bottom: 0.01rem;
+}
+
+
+/*content*/
+.content {
+    position: relative;
+    overflow: hidden;
+    background: #f6f6f6;
+    width: 100%;
+    height: 100%;
+}
+.content .container{
+  position: absolute;
+    overflow-x: auto;
+    top: 0.88rem;
+    height: 100%;
+    -webkit-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+.content .container .contentList{
+    width: 7.2rem;
+    float: left;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+.content ul{
+    padding:0 0.37rem;
+    height: 0.88rem;
+    background: #ffffff;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #e1e1e1;
+    margin-bottom: 0.2rem;
+}
+.content ul li{
+    position: relative;
+    width: 0.82rem;
+    height: 0.86rem;
+    font-size: 0.26rem;
+    line-height: 0.88rem;
+    float: left;
+    margin-right: 0.515rem;
+    text-align: center;
+}
+.content ul li.select{
+    border-bottom: 0.02rem solid #fc3e32;
+}
+.content ul li:last-child{
+    margin-right: 0;
+}
+.content ul li p{
+    position: absolute;
+    top: 0.24rem;
+    right: 0rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    border-radius: 50%;
+    background: #fc3e32;
+    text-align: center;
+    line-height: 0.22rem;
+    font-size: 0.16rem;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+.contentList{
+    background: #f6f6f6;
+}
+.contentList div.list{
+    margin-top: 0.2rem;
+    height: 4.6rem;
+    background: #ffffff;
+}
+.contentList div.list .listHead {
+    position: relative;
+    padding-left: 0.28rem;
+    padding-right: 0.21rem;
+    line-height: 0.72rem;
+    height: 0.72rem;
+    font-size: 0.23rem;
+    color: #333;
+}
+.contentList div.list .listHead p{
+    position: absolute;
+    line-height: 0.72rem;
+    font-size: 0.23rem;
+}
+.contentList div.list .listHead p:nth-child(1){
+    float: left;
+}
+.contentList div.list .listHead p:nth-child(2){
+    top: 0;
+    right: 0.21rem;
+    color: #fe3e32;
+}
+.contentList div.list .netSpec{
+    position: relative;
+    background: #f6f6f6;
+    width: 100%;
+    height: 2.3rem;
+    border-top: 0.01rem solid #f6f6f6;
+}
+.contentList div.list .netSpec div{
+    position: absolute;
+    top: 0.24rem;
+    left: 0.24rem;
+    width: 1.79rem;
+    height: 1.79rem;
+    border: 0.02rem solid #f6f6f6;
+    border-radius: 0.06rem;
+}
+.contentList div.list .netSpec div img{
+    width: 100%;
+    height: 100%;
+}
+.contentList div.list .netSpec a{
+    position: absolute;
+    top: 0.5rem;
+    left: 2.25rem;
+    color: #333;
+    font-size: 0.23rem;
+    line-height: 0.36rem;
+}
+.contentList div.list .netSpec i{
+    position: absolute;
+    bottom: 0.26rem;
+    left: 2.19rem;
+    color: #fc3e32;
+    font-size: 0.22rem;
+}
+.contentList div.list .netSpec s{
+    position: absolute;
+    bottom: 0.26rem;
+    left: 3.1rem;
+    color: #333;
+    font-size: 0.16rem;
+}
+.contentList div.list .netSpec p:nth-child(4) {
+    position: absolute;
+    left: 2.23rem;
+    bottom: 0.75rem;
+    font-size: 0.23rem;
+    color: #b8b8b8;
+    line-height: 0.36rem;
+}
+.contentList div.list .netSpec p:nth-child(5) {
+    position: absolute;
+    left: 2.23rem;
+    bottom: 0.4rem;
+    font-size: 0.23rem;
+    color: #b8b8b8;
+    line-height: 0.36rem;
+}
+.contentList div.list .netSpec p:last-child {
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.24rem;
+    font-size:0.19rem ;
+    color:#cdcdcd;
+}
+/*listTotal*/
+.listTotal{
+    position: relative;
+    height: 0.57rem;
+    background: #ffffff;
+    border-bottom: 0.01rem solid #f6f6f6;
+    overflow: hidden;
+}
+.listTotal div{
+    overflow: hidden;
+    position: absolute;
+    top: 0.1rem;
+    right: 0rem;
+    width: 4.34rem;
+    height: 0.47rem;
+    line-height: 0.47rem;
+    font-size: 0.19rem;
+}
+.listTotal div i.price{
+    display: inline-block;
+    font-size:0.23rem;
+    color: #fc3e32;
+}
+.listTotal div i{
+    color: #fc3e32;
+}
+/*listFoot*/
+
+.listFoot {
+    background: #ffffff;
+    height: 0.98rem;
+    position: relative;
+}
+.listFoot div:nth-child(1) {
+    position: absolute;
+    left: 3.88rem;
+    top: 0.18rem;
+    width: 1.46rem;
+    text-align: center;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    border: 0.01rem solid #d2d2d2;
+    font-size: 0.26rem;
+    border-radius: 0.05rem;
+}
+.listFoot div.check{
+    border: 0.01rem solid #fe3e32;
+    font-size:0.26rem ;
+    color: #fe3e32;
+}
+.listFoot div:last-child{
+    position: absolute;
+    left: 5.55rem;
+    /*right: 0.2rem;*/
+    top: 0.18rem;
+    width: 1.46rem;
+    line-height: 0.62rem;
+    text-align: center;
+    height: 0.62rem;
+    font-size: 0.26rem;
+    border: 0.01rem solid #fc3e32;
+    border-radius: 0.05rem;
+    color: #fc3e32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

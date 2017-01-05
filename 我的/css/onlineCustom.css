@@ -1,0 +1,47 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: 2px solid #f6f6f6;
+}
+header img {
+  position: absolute;
+  left: .5rem;
+  bottom: .8rem;
+  width: .4rem;
+  height: .8rem;
+}
+header p {
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: .8rem;
+}
+section {
+  width: 100%;
+  position: absolute;
+  top: 2.5rem;
+  bottom: 0;
+  overflow-y: auto;
+}
+section .foot {
+  width: 100%;
+  border-top: 1.5px solid #8c8c8c;
+  height: 1.8rem;
+  position: absolute;
+  bottom: 0;
+  line-height: 1.8rem;
+  text-align: center;
+}
+section .foot i {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+section .foot input {
+  transform: translateY(-0.18rem);
+  height: 1.4rem;
+  width: 13rem;
+  border-radius: 4px;
+  border: 1px solid #8c8c8c;
+}

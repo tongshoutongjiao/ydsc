@@ -16,6 +16,8 @@ ul li{
 a{
     text-decoration: none;
     color: #333;
+    line-height: 0.9rem;
+    padding-left: 0.2rem;
 }
 i{
     font-style: normal;
@@ -39,9 +41,24 @@ html, body {
 .header{
     position: relative;
     width: 100%;
-    height:1.28rem;
+    height: 0.9rem;
     background: #fff;
     margin-bottom: 0.1rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+textarea{
+    display: block;
+    outline: none;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+.val{
+    width: 6.8rem;
+    height: 100%;
+    border: none;
 }
 .myCart{
     position: absolute;
@@ -67,6 +84,8 @@ html, body {
     height:5rem;
 }
 .content div input{
+    padding-top: 0.3rem;
+    width: 6.9rem;
     display: block;
     font-size:0.26rem ;
     color: #b7b7b7;
@@ -74,4 +93,21 @@ html, body {
     line-height: 0.1rem;
     padding-left: 0.2rem;
 }
+body{
+    position: relative;
+}
+.wrapper{
+    position: absolute;
+    bottom: 4.12rem;
+    left: 1.36rem;
+    width: 4.5rem;
+    height:0.8rem ;
+    background: #fc3e32;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    font-size:0.34rem ;
+}
+
+
 

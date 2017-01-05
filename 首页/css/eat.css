@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow: hidden;
+    -webkit-user-select: none;
+    color: #333;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    font-size: .14rem;
+}
+.header{
+    position: relative;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    background: #fff;
+    font-size: 0.34rem;
+}
+.header h2{
+    position: absolute;
+    left: 2.9rem;
+    font-size: 0.34rem;
+}
+.header a{
+    position: absolute;
+    left:0.24rem ;
+    font-size: 0.34rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main{
+    position: absolute;
+    top:.9rem;
+    bottom:0;
+    overflow-y: auto;
+}
+
+.content .contentList{
+    background: #f6f6f6;
+}
+.content .contentList .specific{
+    width:100% ;
+    height: 5.04rem;
+    margin-bottom: 0.1rem;
+}
+.content .contentList .specific div{
+    width: 7.2rem;
+    height: 3.6rem;
+}
+.content .contentList .specific div img{
+    width: 100%;
+    height: 100%;
+}
+.content .contentList .specific .construct{
+    position: relative;
+    width: 7.2rem;
+    height: 1.45rem;
+}
+.contentList .specific .construct p{
+    position: absolute;
+    left: 2.4rem;
+    font-size: 0.21rem;
+}
+.contentList .specific .construct p:nth-child(1){
+    top: 0.2rem;
+}
+.contentList .specific .construct p:nth-child(3){
+    top: 0.62rem;
+    color: #888;
+}
+.contentList .specific .construct p:nth-child(4){
+    bottom: 0.24rem;
+    color: #888;
+    font-size: 0.17rem;
+}
+.contentList .specific .construct .sailed{
+    position: absolute;
+    right:0.22rem ;
+    top: 0.22rem;
+    font-size: 0.17rem;
+    color: #888;
+}
+.contentList .specific .construct .realPrice{
+    position: absolute;
+    font-size:0.17rem ;
+    bottom: 0.24rem;
+    left: 2.14rem;
+    color: #fc3e32;
+}
+.contentList .specific .construct s{
+    position: absolute;
+    bottom: 0.24rem;
+    left: 2.89rem;
+    font-size:0.14rem ;
+    color: #888;
+}
+.contentList .specific .construct i{
+    position: absolute;
+    right: 1.13rem;
+    bottom: 0.24rem;
+    font-size:0.17rem ;
+    color: #888;
+}
+.contentList .specific .construct i.icon{
+    position: absolute;
+    bottom:0.2rem ;
+    right: 0.21rem;
+    width: 0.4rem;
+    height:0.34rem ;
+    background: url("../img/加入购物车.png");
+    background-size: 0.4rem 0.34rem ;
+}
+.content .show ul{
+    overflow: hidden;
+}
+.content .show ul li{
+    float: left;
+    position: relative;
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-right: 0.02rem;
+    background: #ffffff;
+    padding:0.1rem 0.09rem 0.84rem 0.1rem ;
+    margin-bottom: 0.02rem;
+}
+.content .show ul li p.specific{
+    display: inline-block;
+    font-size: 0.21rem;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.content .show ul li p.price{
+    position: absolute;
+    bottom: 0.14rem;
+    left: 0.11rem;
+    display: inline-block;
+    font-size: 0.14rem;
+    color: #fc3e32;
+}
+.content .show ul li div{
+    width: 3.39rem;
+    height: 3.39rem;
+    margin-bottom: 0.14rem;
+}
+.content .show ul li div img{
+    width: 100%;
+    height:100%;
+}
+.content .show ul li i.icon{
+    position: absolute;
+    right: 0.09rem;
+    bottom: 0.15rem;
+    width: 0.4rem;
+    height: 0.34rem;
+    background: url("../img/加入购物车-拷贝_88.png");
+    background-size: 0.4rem 0.34rem;
+}

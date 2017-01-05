@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/提交成功.css">
+    <title>提交成功</title>
+</head>
+<body>
+<section class="main" id="main">
+    <header>
+        <h2>提交成功</h2>
+        <a href="../我的售后/mySale.html"> &lt</a>
+    </header>
+    <section class="content">
+        <div class="success">
+            <i></i>
+            <p>您的申请已提交，请耐心等待哦，如有问题，请联系客服！</p>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+
+</section>
+<script type="text/javascript" charset="utf-8">
+    ~function (desW) {
+        var winW = document.documentElement.clientWidth,
+            n = winW / desW,
+            oMain = document.getElementById("main");
+        if (winW > desW) {
+            oMain.style.width = desW + "px";
+            return;
+        }
+        document.documentElement.style.fontSize = n * 100 + "px";
+    }(720);
+</script>
+</body>
+</html>

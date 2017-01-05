@@ -16,6 +16,7 @@ ul li{
 a{
     text-decoration: none;
     color: #333;
+    -webkit-tap-highlight-color: transparent;
 }
 i{
     font-style: normal;
@@ -40,7 +41,7 @@ html, body {
 .header{
     position: relative;
     width: 100%;
-    height:1.28rem;
+    height:0.9rem;
     background: #fff;
 }
 .myCart{
@@ -50,11 +51,12 @@ html, body {
     color: #333;
     font-size: 0.34rem;
 }
-.header p.greater{
+.header a.greater{
     position: absolute;
     left: 0.24rem;
     bottom: 0.28rem;
-    font-size:0.31rem ;
+    font-size: 0.34rem;
+    font-weight: bold;
     color: #333;
 }
 /*content*/
@@ -74,7 +76,7 @@ html, body {
     width: 0.4rem;
     height: 0.4rem;
     border-radius: 50%;
-    background: url("../img/goods/Avatar-sample-149.png");
+    background: url("../img/ptotoHead.png");
     background-size: 0.4rem 0.4rem;
 }
 .commitList span{
@@ -96,14 +98,14 @@ html, body {
     float: left;
     width: 0.22rem;
     height: 0.2rem;
-    background: url("../img/goods/五角星-实-拷贝-4@2x.png");
+    background: url("../img/starFour.png");
     background-size: 0.22rem 0.2rem;
     margin-right: 0.1rem;
 }
 .commitList ul li.select{
     width: 0.22rem;
     height: 0.2rem;
-    background: url("../img/goods/star1.png");
+    background: url("../img/starNull.png");
     background-size: 0.22rem 0.20rem;
 }
 .commitList .comment{

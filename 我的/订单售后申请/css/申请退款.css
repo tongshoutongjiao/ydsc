@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.main{
+    margin: 0 auto;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 7.2rem;
+    height: 0.9rem;
+    background: #fff;
+    line-height: 0.9rem;
+}
+header h2{
+    text-align: center;
+    font-size: 0.34rem;
+}
+header a{
+    position: absolute;
+    float: right;
+    font-weight: bold;
+    top: 0.05rem;
+    left: 0.2rem;
+    font-size: 0.4rem;
+}
+section.content{
+    position: absolute;
+    top:0.9rem;
+    bottom: 0.01rem;
+    width: 100%;
+    background: #f0f0f0;
+}
+.content .list{
+    width: 100%;
+    background: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.content .list div{
+    position: relative;
+    width: 6.8rem;
+    height: 0.8rem;
+    margin-top: 0.1rem;
+    background: #ffffff;
+}
+.content .list div p{
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #fe3c32;
+}
+.content .list div span.more{
+    position: absolute;
+    right: 0.06rem;
+    top: 0.25rem;
+    width: 0.3rem;
+    height: 0.2rem;
+    background: url(../img/more_unfold.png);
+    background-size: 0.3rem 0.3rem;
+    line-height: 0.8rem;
+
+
+}
+.content .list input{
+    float: right;
+    display: block;
+    width: 4.9rem;
+    height: 0.8rem;
+    background: #fff;
+    border: none;
+    font-size: 0.28rem;
+}
+.listBottom{
+    margin-top: 0.73rem;
+    padding-left: 0.2rem;
+    background: #fff;
+
+}
+.listBottom div{
+    padding-left: 0.2rem;
+    color: #fe3c32;
+    font-size: 0.28rem;
+}
+.listBottom #description{
+    background: #fff;
+    width: 6.8rem;
+    height: auto;
+    outline: none;
+    border: none;
+    font-size: 0.28rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 0.8rem;
+    width: 100%;
+
+}
+footer .submit{
+    margin: auto;
+    background: #fe3c32;
+    width: 4.5rem;
+    height: 100%;
+    font-size: 0.36rem;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+datalist{
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+    width: 4.5rem;
+    height: 0.8rem;
+}
+
+

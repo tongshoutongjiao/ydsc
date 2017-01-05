@@ -5,132 +5,147 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>个人资料</title>
-    <link rel="stylesheet" href="css/myCart.css">
+    <link rel="stylesheet" href="css/mine.css">
 </head>
 <body>
-<section class="main" id="main">
-    <div class="header">
-        <i></i>
-        <i></i>
-        <span>1</span>
-        <h2></h2>
-        <p class="tel">15858373183yindian</p>
-        <p class="tel">大区经理</p>
-       <div>
-           <p>我的订单</p>
-           <p class="greater">&gt</p>
-       </div>
-        <div>
-            <p>账户管理</p>
-            <p class="greater">&gt</p>
-        </div>
+<div class="header">
+    <i class="setter"></i>
+    <i class="news"></i>
+    <span>1</span>
+    <h2></h2>
+    <p class="tel">15858373183yindian</p>
+    <p class="tel">大区经理</p>
+    <div class="myOrder">
+        <p>我的订单</p>
+        <p class="greater">&gt</p>
     </div>
+    <div>
+        <p class="countMsg">账户管理</p>
+        <p class="greater">&gt</p>
+    </div>
+</div>
+<section class="main" id="main">
     <div class="content">
         <div class="clear">
             <ul>
-                <li>
+                <li class="clearLi">
                     <i class="unCharge"></i>
                     <span>待付款</span>
                 </li>
-                <li>
+                <li class="clearLi">
                     <i class="unCharge"></i>
                     <span>待发货</span>
                 </li>
-                <li>
+                <li class="clearLi">
                 <i class="unCharge"></i>
                 <span>待收货</span>
             </li>
-                <li>
+                <li class="clearLi">
                     <i class="unCharge"></i>
                     <span>待评价</span>
                 </li>
-
-                <li>
+                <li class="clearLi">
                     <i class="unCharge"></i>
                     <span>全部订单</span>
                          <div class="inner"></div>
                     <div class="inner over"></div>
                 </li>
-
             </ul>
             <div class="mine">
                 <div class="myWallet">
-                    <p>我的钱包</p>
+                    <p class="wallet">我的钱包</p>
                     <i>￥188.00</i>
                     <span>&gt</span>
                 </div>
                 <div class="myWallet">
-                    <p>我的地址</p>
+                    <p class="address">我的地址</p>
                     <span>&gt</span>
                 </div>
                 <div class="myWallet">
-                    <p>我的团队</p>
+                    <p class="team">我的团队</p>
                     <span>&gt</span>
                 </div>
                 <div class="myWallet">
-                    <p>我的评价</p>
+                    <p class="comment">我的评价</p>
                     <span>&gt</span>
                 </div>
                 <div class="myWallet">
-                    <p>售后申请</p>
+                    <p class="apply">售后申请</p>
                     <span>&gt</span>
                 </div>
-                <div class="myWallet">
-                    <p>我的优惠券</p>
-                    <span>&gt</span>
-                </div>
-
             </div>
             <div class="myList">
                 <ul>
-                    <li class="myCollect">
+                    <li class="myCollect thisCollect">
                         <i></i>
                         <p>我的收藏</p>
                     </li>
-                    <li class="myCollect">
+                    <li class="myCollect recommmendShare">
                         <i></i>
-                        <p>推荐分享</p>
+                        <p >推荐分享</p>
                     </li>
-                    <li class="myCollect">
+                    <li class="myCollect feedBack">
                         <i></i>
                         <p>帮助反馈</p>
                     </li>
-                    <li class="myCollect">
+                    <li class="myCollect" id="custom">
                         <i></i>
                         <p>在线客服</p>
                     </li>
                 </ul>
             </div>
         </div>
-
-
     </div>
-    <div class="lastIndex">
-        <ul>
-            <li >
-                <p class="lastIndexImg"><img src="./img/首页img/firstPage.png" ></p>
-            </li>
-            <li>
-                <p class="classic">
-                    <img src="./img/首页img/分类.png" >
-                </p>
-
-            </li>
-            <li class="select">
-                <p class="classicCart"><img src="./img/首页img/cart.png" alt=""></p>
-            </li>
-            <li >
-                <p class="mine"><img src="./img/首页img/mine.png"></p>
-
-            </li>
-            <a href="./index.html">首页</a>
-            <a href="./classic.html">分类</a>
-            <a href="./cart.html" class="myShoppingCart selected">购物车</a>
-            <a href="javascript:;" >我的</a>
-        </ul>
-    </div>
-
 </section>
+<div class="lastIndex">
+    <ul>
+        <li >
+            <p class="lastIndexImg"><img src="./img/首页-(3).png" ></p>
+        </li>
+        <li>
+            <p class="classic">
+                <img src="./img/classic.png" >
+            </p>
+        </li>
+        <li class="select">
+            <p class="classicCart"><img src="./img/cart.png" alt=""></p>
+        </li>
+        <li >
+            <p class="mine"><img src="./img/mine.png"></p>
+
+        </li>
+        <a href="../首页/index.html">首页</a>
+        <a href="../我的分类/myClassic.html">分类</a>
+        <a href="../我的购物车/cart.html" class="myShoppingCart selected">购物车</a>
+        <a href="javascript:;" >我的</a>
+    </ul>
+</div>
+<div class="outShare">
+    <p class="weChart">
+        <i class="icon"></i>
+        <span>微信</span>
+    </p>
+    <p class="weChart">
+        <i class="icon"></i>
+        <span>微信朋友圈</span>
+    </p>
+    <p class="weChart friend">
+        <i class="icon"></i>
+        <span>QQ</span>
+    </p>
+    <p class="weChart space">
+        <i class="icon"></i>
+        <span>QQ空间</span>
+    </p>
+    <p class="weChart sina">
+        <i class="icon"></i>
+        <span>新浪</span>
+    </p>
+
+</div>
+
+<script type="text/javascript" charset="UTF-8" src="js/zepto.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/mine.js"></script>
 <script type="text/javascript">
     ~function (desW) {
         var winW = document.documentElement.clientWidth,
@@ -143,6 +158,5 @@
         document.documentElement.style.fontSize = n * 100 + "px";
     }(720);
 </script>
-
 </body>
 </html>

@@ -39,17 +39,21 @@ html, body {
 }
 
 #main {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     font-size: .14rem;
+    top: .9rem;
+    bottom:0;
+    overflow-y: auto;
 }
 .header{
     position: relative;
-    padding-top: 0.67rem;
-    height: 0.61rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
     background: #fff;
     font-size: 0.34rem;
     margin-bottom: 0.2rem;
+    font-weight: bold;
 }
 .header h2{
     position: absolute;
@@ -57,10 +61,12 @@ html, body {
     left: 2.9rem;
     font-size: 0.34rem;
 }
-.header i{
+.header a{
     padding-left: 0.24rem;
     display: inline-block;
     font-style: normal;
+    font-weight: bold;
+    font-size: 0.34rem;
 }
 .content{
     width: 100%;
@@ -99,7 +105,7 @@ html, body {
 .content .contain .specific div h2:nth-child(3){
     position: absolute;
     color: #ffffff;
-   font-size: 0.26rem;
+    font-size: 0.26rem;
     left:2.09rem ;
     bottom:0.6rem ;
 }
@@ -130,6 +136,9 @@ html, body {
     display: inline-block;
     font-size: 0.21rem;
     color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .content .show ul li p.price{
     position: absolute;
@@ -154,10 +163,6 @@ html, body {
     bottom: 0.15rem;
     width: 0.4rem;
     height: 0.34rem;
-    background: url("../img/goods/加入购物车-拷贝_88.png");
+    background: url("../img/加入购物车-拷贝_88.png");
     background-size: 0.4rem 0.34rem;
 }
-
-
-
-

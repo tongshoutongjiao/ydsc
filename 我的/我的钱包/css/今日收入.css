@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+    border: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+}
+
+.head p{
+    display: inline-block;
+    font-size: 0.34rem;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    line-height: 0.9rem;
+}
+.head a{
+    position: absolute;
+    top: 0;
+    left:0.2rem ;
+    font-size: 0.36rem;
+    line-height: 0.9rem;
+}
+.content{
+    position: absolute;
+    top:1.1rem;
+    bottom: 0.01rem;
+
+    width: 6.8rem;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+.content div{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    width: 6.8rem;
+}
+.content div p{
+    display: inline-block;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    color: #333;
+}
+.content div span{
+    color: #fc3e32;
+    font-size: 0.28rem;
+    float: right;
+}
+.content div i.money{
+    float: right;
+    font-size: 0.26rem;
+    line-height: 0.88rem;
+    margin-left: 0.1rem;
+}

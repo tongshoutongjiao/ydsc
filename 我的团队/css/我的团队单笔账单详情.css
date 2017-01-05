@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    -webkit-user-select: none;
+}
+span,i{
+    display: block;
+}
+.main {
+    /*  position: absolute;*/
+    margin: 0 auto;
+    font-size: .14rem;
+}
+header{
+    height: 1.28rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 0.01rem solid #f6f6f6;
+}
+
+header h2{
+    font-size: 0.34rem;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    line-height: 1.28rem;
+}
+header i{
+    position: absolute;
+    left:0.24rem ;
+    line-height: 1.28rem;
+    font-style: normal;
+    display: inline-block;
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #333;
+}
+.part{
+    position: absolute;
+    top: 1.28rem;
+    bottom:0.1rem ;
+    border-top: 0.01rem solid #f6f6f6;
+    width: 100%;
+    overflow-y: auto;
+}
+footer{
+    position: absolute;
+    bottom: 0.1rem;
+    width: 100%;
+}
+.part .content{
+    width: 100%;
+    background: #fff;
+}
+.part .content .order{
+    width: 100%;
+    height: 1.65rem;
+}
+.part .content .order .photo{
+    position: relative;
+    height: 0.8rem;
+    margin-top: 0.19rem;
+    padding-left: 2.7rem;
+    width: 4.5rem;
+    display: inline-block;
+}
+.part .content .order .photo i{
+    width:0.8rem ;
+    height: 0.8rem;
+    background: #c03939;
+    border-radius: 50%;
+    display: inline-block;
+}
+.part .content .order .photo span{
+    position: absolute;
+    font-size: 0.3rem;
+    top: 0.44rem;
+    right: 2.7rem;
+}
+.part .content .order p:nth-child(2){
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 2.82rem;
+}
+.part .content .specialList{
+  font-size: 0.23rem;
+    padding-left: 0.21rem;
+    padding-right: 0.2rem;
+    background: #fff;
+    height: 0.23rem;
+    padding-bottom: 0.19rem;
+}
+.part .content .specialList p:nth-child(1){
+    float: left;
+}
+.part .content .specialList p:nth-child(2){
+    float: right;
+}
+

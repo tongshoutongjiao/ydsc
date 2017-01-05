@@ -1,0 +1,95 @@
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  font-size: .8rem;
+}
+header img {
+  width: .5rem;
+  height: .9rem;
+  position: absolute;
+  left: .6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: middle;
+}
+section {
+  position: absolute;
+  width: 100%;
+  top: 2.25rem;
+  bottom: 0;
+  overflow-y: auto;
+  font-size: .6rem;
+}
+section .orcode {
+  border-top: .25rem solid #f6f6f6;
+  text-align: center;
+  height: 4rem;
+}
+section .orcode .orcode-top {
+  margin-top: 0.5rem;
+}
+section .orcode p {
+  line-height: 1;
+}
+section .area-agent {
+  width: 100%;
+  background-color: #f6f6f6;
+  height: 1.65rem;
+  line-height: 1.65rem;
+}
+section .area-agent p {
+  position: absolute;
+  left: .6rem;
+}
+section .area-agentnext {
+  width: 100%;
+  height: 1.65rem;
+  line-height: 1.65rem;
+}
+section .area-agentnext p {
+  position: absolute;
+  left: .6rem;
+}
+section .somebodymes0 {
+  line-height: 2.75rem;
+  border-top: 1px solid #f1f1f1;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-l {
+  float: left;
+  margin-left: .6rem;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-l .yindian {
+  width: 2rem;
+  height: 2rem;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-r {
+  float: right;
+  margin-right: .6rem;
+}
+section .somebodymes0 .somebody-bottom {
+  text-align: center;
+}
+section .somebodymes1 {
+  line-height: 2.75rem;
+  border-top: 1px solid #cccccc;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-l {
+  float: left;
+  margin-left: .6rem;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-l .yindian {
+  width: 2rem;
+  height: 2rem;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-r {
+  float: right;
+  margin-right: .6rem;
+}
+section .somebodymes1 .somebody-bottom {
+  text-align: center;
+}

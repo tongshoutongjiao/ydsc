@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+    border: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+}
+
+.head p{
+    display: inline-block;
+    font-size: 0.34rem;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    line-height: 0.9rem;
+}
+.head a{
+    position: absolute;
+    top: 0;
+    left:0.2rem ;
+    font-size: 0.36rem;
+    line-height: 0.9rem;
+}
+.head .sure{
+    position: absolute;
+    bottom: -0.1rem;
+    right: 0.2rem;
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.9rem;
+
+}
+.content{
+    position: absolute;
+    top: 1.1rem;
+    bottom: 0.01rem;
+    width: 6.8rem;
+    height: auto;
+}
+.content div{
+    width: 6.8rem;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: 0.01rem solid #f0f0f0;
+    background: #fff;
+}
+.content div input{
+    display: inline-block;
+    height: 100%;
+    width: 94%;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    background: #fff;
+}
+.content div .circle{
+    position: relative;
+    float: right;
+    top: 0.3rem;
+    width:0.31rem ;
+    height:0.31rem ;
+    border-radius: 50%;
+    border: 0.01rem solid #888;
+    line-height: 0.88rem;
+    padding-left:0rem ;
+    padding-right:0rem ;
+}
+.content div .circle .mark{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -0.203rem;
+    background: url("../img/选中.png") no-repeat center center;
+    background-size: 0.32rem 0.32rem;
+    width: 0.32rem;
+    height:0.32rem ;
+    border-radius: 50%;
+}
+.content .tip{
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 2.8rem;
+    width: 1.2rem;
+    height: 0.5rem;
+    background: #333333;
+    color: #fff;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    transition:.5s linear;
+}
+
+
+
+
+

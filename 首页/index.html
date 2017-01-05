@@ -11,115 +11,176 @@
 <body>
 <section class="main" id="main">
     <div class="header">
-        <h2><img src="./img/首页img/logo.png" alt=""></h2>
+        <h2><img src="./img/logo.png" alt=""></h2>
         <input class="search" id="search" type="text" placeholder="输入商品名称或关键字">
-        <p class="iconSearch"><img src="./img/首页img/iconsearch.png"></p>
+        <p class="iconSearch"><img src="./img/iconsearch.png"></p>
     </div>
-    <div class="contenter">
+    <div class="contenter content">
         <div class="contain">
-            <div class="swiper-container">
-                <div class=" ban swiper-wrapper">
-                    <div class="banner swiper-slide ">
-                        <img data-src="./img/首页img/speacial.png" class="swiper-lazy" >
-                        <div class="swiper-lazy-preloader"></div>
+            <div class="test">
+                <div class="swiper-container">
+                    <div class=" ban swiper-wrapper " id="ban">
+                        <!--  <div class="banner swiper-slide brandList">
+                              <img data-src="./img/speacial.png" class="swiper-lazy" >
+                              <div class="swiper-lazy-preloader"></div>
+                          </div>
+                          <div class="banner  swiper-slide brandList">
+                              <img data-src="./img/banner2.jpg" class="swiper-lazy" >
+                              <div class="swiper-lazy-preloader"></div>
+                          </div>
+                          <div class="banner swiper-slide brandList  ">
+                              <img data-src="./img/banner3.jpg" class="swiper-lazy" >
+                              <div class="swiper-lazy-preloader"></div>
+                          </div>
+                          <div class="banner  swiper-slide brandList">
+                              <img data-src="./img/banner4.jpg" class="swiper-lazy" >
+                              <div class="swiper-lazy-preloader"></div>
+                          </div>-->
                     </div>
-                    <div class="banner  swiper-slide">
-                        <img data-src="./img/banner2.jpg" class="swiper-lazy" >
-                        <div class="swiper-lazy-preloader"></div>
-                    </div>
-                    <div class="banner swiper-slide  ">
-                        <img data-src="./img/banner3.jpg" class="swiper-lazy" >
-                        <div class="swiper-lazy-preloader"></div>
-                    </div>
-                    <div class="banner  swiper-slide">
-                        <img data-src="./img/banner4.jpg" class="swiper-lazy" >
-                        <div class="swiper-lazy-preloader"></div>
-                    </div>
+                    <div class="bannerTip swiper-pagination  swiper-pagination-bullets"></div>
                 </div>
-                <div class="bannerTip swiper-pagination "></div>
             </div>
-            <div class="eatSpec">
-                <ul>
-                    <li>
-                        <img src="./img/首页img/组-44-拷贝.png" alt=""/>
-                        <a href="javascript:;">吃货专区</a>
-                    </li>
-                    <li>
-                        <img src="./img/首页img/组-44-拷贝.png" alt=""/>
-                        <a href="javascript:;">猜你喜欢</a>
-                    </li>
-                    <li>
-                        <img src="./img/首页img/组-44-拷贝.png" alt=""/>
-                        <a href="javascript:;">新品上市</a>
-                    </li>
-                    <li>
-                        <img src="./img/首页img/组-44-拷贝.png" alt=""/>
-                        <a href="javascript:;">特别推荐</a>
-                    </li>
+            <div class="eatSpec" id="eatSpec">
+                <ul id="advertise">
+                    <!--   <li>
+                           <img src="./img/littleEat.png" alt=""/>
+                           <a href="javascript:;">吃货专区</a>
+                       </li>
+                       <li>
+                           <img src="./img/组-44-拷贝.png" alt=""/>
+                           <a href="javascript:;">猜你喜欢</a>
+                       </li>
+                       <li>
+                           <img src="./img/newBrand.png" alt=""/>
+                           <a href="javascript:;">新品上市</a>
+                       </li>
+                       <li>
+                           <img src="./img/recommend.png" alt=""/>
+                           <a href="javascript:;">特别推荐</a>
+                       </li>-->
                 </ul>
             </div>
             <div class="timeShopping">
                 <div class="countDown">
-                    <img src="" alt=""/>
+                    <img src="./img/绝无仅有的特惠.png"/>
                     <h4>限时抢购</h4>
                     <p>距离本次抢购结束还有</p>
-                    <p>03:18:14</p>
+                    <p id="count"></p>
                     <p></p>
                 </div>
-                <div class="littleBanner">
-                    <div class="littleWrapper">  <img src="./img/首页img/牛肉粒.png" alt=""/>
+                <div class="swiper2 swiper-container ">
+                    <div class="littleBanner swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="littleWrapper">
+                                <img src="./img/牛肉粒.png" alt=""/>
+                            </div>
+                            <a href="javascript:;">百草味牛肉粒</a>
+                            <p>120g</p>
+                            <img class="icon" src="./img/加入购物车.png">
+                            <p>11.11 <s>33.99</s></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="littleWrapper">
+                                <img src="./img/牛肉粒.png" alt=""/>
+                            </div>
+                            <a href="javascript:;">百草味牛肉粒</a>
+                            <p>120g</p>
+                            <img class="icon" src="./img/加入购物车.png">
+                            <p>11.11 <s>33.99</s></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="littleWrapper">
+                                <img src="./img/牛肉粒.png" alt=""/>
+                            </div>
+                            <a href="javascript:;">百草味牛肉粒</a>
+                            <p>120g</p>
+                            <img class="icon" src="./img/加入购物车.png">
+                            <p>11.11 <s>33.99</s></p>
+                        </div>
                     </div>
-                    <a href="javascript:;">百草味牛肉粒</a>
-                    <p>120g</p>
-                    <img  class="icon" src="./img/首页img/加入购物车.png">
-                    <p>11.11 <s>33.99</s></p>
                     <ul>
-                        <li class="select"></li>
+                        <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                     </ul>
+
                 </div>
+
             </div>
-            <div class="Regional">
-                <ul>
-                    <li class="select">
-                        <div class="select">地域风味</div>
-                        <p ></p>
-                    </li>
-                    <li>进口专区
+            <div class="Regional" id="Regional">
+                <ul class=" swiperList " id="swiperList">
+                    <li class=" select listHead">
+                        <div> 地域风味</div>
                         <p></p>
                     </li>
-
-                    <li >临期食品
+                    <li class="listHead">
+                        <div class="select "> 进口专区</div>
                         <p></p>
                     </li>
-
-                    <li >宠物专区
+                    <li class="listHead">
+                        <div class="select "> 临期食品</div>
                         <p></p>
                     </li>
-                    <li>特色专区
+                    <li class=" listHead">
+                        <div class="select "> 宠物专区</div>
+                        <p></p>
+                    </li>
+                    <li class="listHead">
+                        <div class="select "> 特色专区</div>
+                        <p></p>
+                    </li>
+                    <li class=" listHead">
+                        <div class="select "> 特色专区</div>
+                        <p></p>
+                    </li>
+                    <li class=" listHead">
+                        <div class="select ">宠物专区</div>
+                        <p></p>
+                    </li>
+                    <li class="listHead">
+                        <div class="select ">宠物专区</div>
+                        <p></p>
+                    </li>
+                    <li class="listHead">
+                        <div class="select "> 特色专区</div>
                         <p></p>
                     </li>
                 </ul>
                 <div class="specific">
-                    <ul class="RegionalList">
+                    <ul class="RegionalList" id="RegionalList">
                         <li>
-                            <div><img src="./img/首页img/bei-3.png" alt=""></div>
+                            <div><img src="./img/bei-3.png" alt=""></div>
                             <a href="javascript:;">内蒙馆</a>
                         </li>
                         <li>
-                            <div> <img src="./img/首页img/bei-3.png" alt=""></div>
+                            <div><img src="./img/bei-3.png" alt=""></div>
                             <a href="javascript:;">江苏馆</a>
                         </li>
                         <li>
-                            <div> <img src="./img/首页img/nei-2.png" alt=""></div>
+                            <div><img src="./img/bei-3.png" alt=""></div>
                             <a href="javascript:;">湖南馆</a>
                         </li>
                         <li>
-                            <div> <img src="./img/首页img/nei-2.png" alt=""></div>
+                            <div><img src="./img/bei-3.png" alt=""></div>
+                            <a href="javascript:;">内蒙馆</a>
+                        </li>
+                        <li>
+                            <div><img src="./img/bei-3.png" alt=""></div>
+                            <a href="javascript:;">内蒙馆</a>
+                        </li>
+                        <li>
+                            <div><img src="./img/bei-3.png" alt=""></div>
+                            <a href="javascript:;">内蒙馆</a>
+                        </li>
+                        <li>
+                            <div><img src="./img/bei-3.png" alt=""></div>
+                            <a href="javascript:;">内蒙馆</a>
+                        </li>
+                        <li>
+                            <div><img src="./img/bei-3.png" alt=""></div>
                             <a href="javascript:;">内蒙馆</a>
                         </li>
                     </ul>
@@ -130,242 +191,485 @@
                     <p></p>
                     <h2>精选专题</h2>
                 </div>
-                <ul class="subContent">
+                <ul class="subContent" id="subContent">
+                    <!--<li>
+                        <div class="subImg">
+                            <img src="./img/women-4.png">
+                        </div>
+                    </li>
                     <li>
                         <div class="subImg">
-                            <img src="./img/首页img/women-4.png">
+                            <img src="./img/women-4.png">
                         </div>
                         <div class="healthy">女性健康</div>
                         <p class="regret">20款错过后悔的养生产品</p>
                     </li>
                     <li>
                         <div class="subImg">
-                            <img src="./img/首页img/women-4.png">
+                            <img src="./img/women-4.png">
                         </div>
                         <div class="healthy">女性健康</div>
                         <p class="regret">20款错过后悔的养生产品</p>
-                    </li>
-                    <li>
-                        <div class="subImg">
-                            <img src="./img/首页img/women-4.png">
-                        </div>
-                        <div class="healthy">女性健康</div>
-                        <p class="regret">20款错过后悔的养生产品</p>
-                    </li>
+                    </li>-->
                 </ul>
-                <div class="subList">
-                    <div class="subListImg">
-                        <img src="./img/首页img/loveLife.png" >
-                    </div>
+                <div class="subList" id="subList">
+                    <!--  <div class="subListImg">
+                          <img src="./img/loveLife.png" >
+                      </div>-->
                 </div>
-
-
-
+            </div>
+            <div class="oFLOOR" id="oFLOOR">
 
 
             </div>
-            <div class="fruit">
-                <div class="fruitHead">
-                    <div class="headLeft"></div>
-                    <h4>坚果蜜饯</h4>
-                    <a href="javascript:;">查看更多</a>
-                    <p>&gt</p>
-                </div>
-                <ul class="fruitList">
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+            <!-- <div class="fruit" id="fruit">
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                 <div class="fruitHead">
+                     <div class="headLeft"></div>
+                     <h4>坚果蜜饯</h4>
+                     <a href="./classDetail.html">查看更多</a>
+                     <p>&gt</p>
+                 </div>
+                 <ul class="fruitList">
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                     </li>
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                     </li>
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                     </li>
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                     </li>
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                </ul>
-            </div>
-            <div class="fruit">
-                <div class="fruitHead">
-                    <div class="headLeft"></div>
-                    <h4>坚果蜜饯</h4>
-                    <a href="javascript:;">查看更多</a>
-                    <p>&gt</p>
-                </div>
-                <ul class="fruitList">
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
+                     </li>
+                     <li>
+                         <div class="fruitImg">
+                             <img src="./img/组-49.png" >
+                         </div>
+                         <a href="javascript:;">小梅屋-老梅干</a>
+                         <p>￥58.00</p>
+                         <span class="icon">
+                         <img src="./img/加入购物车@2x.png" alt="">
+                     </span>
 
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
-
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
-
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
-
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
-
-                    </li>
-                    <li>
-                        <div class="fruitImg">
-                            <img src="./img/首页img/组-49.png" >
-                        </div>
-                        <a href="javascript:;">小梅屋-老梅干</a>
-                        <p>￥58.00</p>
-                        <span class="icon">
-                        <img src="./img/首页img/加入购物车@2x.png" alt="">
-                    </span>
-
-                    </li>
-                </ul>
-            </div>
+                     </li>
+                 </ul>
+             </div>-->
         </div>
     </div>
     <div class="lastIndex">
         <ul>
             <li class="select">
-                <p class="lastIndexImg"><img src="./img/首页img/首页-(2).png" ></p>
-
+                <p class="lastIndexImg"><img src="./img/首页-(2).png"></p>
             </li>
             <li>
                 <p class="classic">
-                    <img src="./img/首页img/分类.png" >
+                    <img src="./img/分类.png">
                 </p>
-
             </li>
             <li>
-                <p class="classicCart"><img src="./img/首页img/cart.png" alt=""></p>
+                <p class="classicCart"><img src="./img/cart.png" alt=""></p>
             </li>
-            <li >
-                <p class="mine"><img src="./img/首页img/mine.png"></p>
+            <li>
+                <p class="mine"><img src="./img/mine.png"></p>
 
             </li>
             <a href="javascript:;">首页</a>
-            <a href="./classic.html">分类</a>
-            <a href="./cart.html" class="myShoppingCart">购物车</a>
-            <a href="./myOrder.html">我的</a>
+            <a href="../我的分类/myClassic.html">分类</a>
+            <a href="../我的购物车/cart.html" class="myShoppingCart">购物车</a>
+            <a href="../我的/我的.html">我的</a>
         </ul>
     </div>
+    <div id="backToTop" class="backTop">
+        <p></p>
+    </div>
 </section>
-<script type="text/javascript" charset="utf-8" src="js/zepto.min.js"></script>
-<script charset="utf-8" type="text/javascript" src="./js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/zepto.js"></script>
 <script charset="utf-8" type="text/javascript" src="js/iscroll-5.1.3.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/swiper-3.4.0.jquery.min.js"></script>
+<script src="./js/css.js"></script>
 <script charset="utf-8" type="text/javascript" src="js/index.js3.js"></script>
 <script charset="UTF-8">
-    var $contenter=$('.contenter');
-    $contenter.css('height',document.documentElement.clientHeight-$('.header')[0].offsetHeight-$('.lastIndex')[0].clientHeight);
-    var myScroll=new IScroll('.contenter');
-    /*搜索跳转*/
-    $search=$('#search');
-    $search.focus(function () {
-        window.location.href='./search.html';
-    });
-    
+    window.setTimeout(function () {
+        var $contenter = $('.contenter');
+        $contenter.css('height', document.documentElement.clientHeight - $('.header')[0].offsetHeight - $('.lastIndex')[0].clientHeight);
+        var myScroll = new IScroll('.contenter');
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+        var $backTop = $('.backTop');
 
-    var $cart=$('.myShoppingCart');
-    $cart.on('tap',function () {
-        window.location='./cart.html'
-    })
+        function backTop() {
+            $backTop.tap(function () {
+                myScroll.scrollTo(0, 0)
+            })
+        }
+
+        window.setTimeout(backTop, 1000)
+
+    }, 500);
+    var module = (function () {
+
+        /*搜索跳转*/
+        function search() {
+            $search = $('#search');
+            $search.tap(function () {
+                window.location.href = './search.html';
+            });
+        }
+
+        /*首页轮播图*/
+        function banner() {
+            $.ajax({
+                //  url: "http://192.168.1.100:28080/b2b2c-fx/api/v2/mobile/adv/adv-list.do",
+                url: "http://www.yindianmall.com/api/v2/mobile/adv/adv-list.do",
+                dataType: "jsonp",
+                /* jsonp:'cb',
+                 jsonpCallback:'fn',//自定义传递给服务器的函数名，而不是使用jquery自动生成的。*/
+                data: {
+                    acid: '1'
+                },
+                success: function (data) {
+                    console.log(data);
+                    var aDiv = document.getElementById("ban");
+                    var str = '';
+                    for (var i = 0; i < data.data.advList.length; i++) {
+                        var cur = data.data.advList[i];
+                        str += "<div aid='" + cur.aid + "' class='banner swiper-slide brandList'>",
+                            str += "<img class='swiper-lazy' src=" + cur.atturl + " />",
+                            str += "</div>";
+                    }
+                    $(aDiv).html(str);
+                    bannerTurn();
+
+                },
+                error: function (result) {
+                    alert(result.status);
+                }
+            });
+        }
+
+        /*双击轮播图区域，实现从当前页面到轮播图区域的跳转*/
+        function bannerTurn() {
+            var $swiperSlide = $('.ban .swiper-slide');
+            $swiperSlide.doubleTap(function () {
+                var ID = $(this).attr('aid');
+                window.location.href = './brand/brandList.html?id=' + ID;
+            })
+        }
+
+        /*橱窗栏目*/
+        function shop() {
+            $.ajax({
+                // url: "http://192.168.1.100:28080/b2b2c-fx/api/v2/mobile/showcase/get.do",
+                url: "http://www.yindianmall.com/api/v2/mobile/showcase/get.do",
+                dataType: "jsonp",
+                success: function (data) {
+                    var oAd = document.getElementById('advertise');
+                    var str = '';
+                    for (var i = 0; i < data.data.length; i++) {
+                        var cur = data.data[i].title;
+                        str += "<li class='showcase'>",
+                            str += "<img src='' />",
+                            str += "<a  href='javascript:;'>" + cur + "</a>",
+                            str += "</li>";
+                    }
+                    $(oAd).html(str);
+                    /*把当前元素的id绑定在每一个需要点击的橱窗商品上面*/
+                    var $showcase = $('.showcase');
+                    for (var i = 0; i < data.data.length; i++) {
+                        var test = $showcase.eq(i).attr('val', data.data[i].id);
+                    }
+                },
+                error: function (result) {
+                    alert(result.status);
+                }
+            });
+        }
+
+        //橱窗商品 点击事件
+        function shopClick() {
+            $adv = $('#advertise');
+            $showCase = $adv.children('.showcase');
+            $showCase.tap(function () {
+                var num = $(this).attr('val');
+                location.href = './吃货专区.html?id=' + num;
+            })
+        }
+
+        window.setTimeout(shopClick, 1000);
+
+        /*精选专题*/
+        function special() {
+            $.ajax({
+                url: "http://www.yindianmall.com/api/v2/mobile/subject/listAll.do",
+                dataType: "jsonp",
+                success: function (data) {
+                    var oSub = document.getElementById('subContent');
+                    var str = '';
+                    for (var i = 0; i < data.data.length; i++) {
+                        var cur = data.data[i].banner;
+                        str += "<div class='subImg' style=' margin-bottom: 0.1rem;' width='7rem';height='2.4rem'>",
+                            str += "<img style='width:7rem;height:2.4rem; border-radius: 0.06rem' src=" + cur + " >",
+                            str += "</div>";
+                    }
+                    $(oSub).html(str);
+                    var $subImg = $('.subImg');
+                    for (var i = 0; i < data.data.length; i++) {
+                        $subImg.eq(i).attr('index', data.data[i].id);
+                    }
+                },
+                error: function (result) {
+                    alert(result.status);
+                }
+
+                /*success: function (data) {
+                 var str='';
+                 var oSub=document.getElementById('subContent');
+                 for(var i=0;i<data.data.length;i++){
+                 var cur=data.data[i].banner;
+                 str+="<div class='subImg'>";
+                 str+="<img src="+cur+" >";
+                 str+="</div>";
+                 }
+                 $(oSub).html(str);
+
+                 },
+                 error: function (result) {
+                 alert(result.status);
+                 }*/
+            });
+        };
+        /*点击精选专题模块，实现页面跳转*/
+        window.setTimeout(turnTo, 500);
+        function turnTo() {
+            $sub = $('#subContent');
+            $subImg = $sub.children('.subImg');
+            $subImg.tap(function () {
+                var num = $(this).attr('index');
+                location.href = './精选专题.html?id=' + num;
+            })
+        }
+
+        /*插图广告模块*/
+        function adverTise() {
+            $.ajax({
+                url: "http://www.yindianmall.com//api/v2/mobile/adv/get-drawing.do",
+                dataType: "jsonp",
+                success: function (data) {
+                    var subL = document.getElementById('subList');
+                    var str = '';
+                    str += "<div class='subListImg'>",
+                        str += "<img src=" + data.data.atturl + ">",
+                        str += "</div>";
+                    $(subL).html(str);
+                },
+                error: function (result) {
+                    alert(result.status);
+                }
+                /*success: function (data) {
+                 var str='';
+                 var oSub=document.getElementById('subContent');
+                 for(var i=0;i<data.data.length;i++){
+                 var cur=data.data[i].banner;
+                 str+="<div class='subImg'>";
+                 str+="<img src="+cur+" >";
+                 str+="</div>";
+                 }
+                 $(oSub).html(str);
+
+                 },
+                 error: function (result) {
+                 alert(result.status);
+                 }*/
+            });
+        }
+
+        function floor() {
+            /*楼层模块*/
+            $.ajax(
+                {
+                    url: "http://www.yindianmall.com/api/v2/mobile/floor/get.do",
+                    dataType: "jsonp",
+                    success: function (data) {
+                        console.log(data);
+                        var oFLOOR = document.getElementById('oFLOOR');
+                        var str = '';
+                        for (var i = 0; i < data.data.length; i++) {
+                            var cur = data.data[i];
+                            str += "<div class='fruit'>";
+                                str += '<div class="fruitHead">';
+                                str += '<div class="headLeft"></div>';
+                                str += '<h4>' + cur.parent_name + '</h4>';
+                                str += '<a href="javascript:;" class="scanMore">查看更多</a>';
+                                str += '</div>';
+                            str += '<ul class="fruitList">';
+                            for(var j=0;j<cur.goodsList.length;j++){
+                                var curL = cur.goodsList[j];
+                                str += '<li class="speacialBrand">';
+                                str += '<div class="fruitImg">';
+                                str += "<img src=" + curL.small + ">";
+                                str += '</div>';
+                                str += "<a href='javascript:;'>" + curL.name + "</a>";
+                                str += "<p> ￥ " + curL.price + "</p>";
+                                str += '<span>',
+                                    str += "<img src='./img/加入购物车@2x.png'>",
+                                    str +='</span>';
+                                str += '</li>';
+                            }
+                            str+='</ul>';
+                            str+='</div>';
+                           /* str += "<div class='fruit'>",
+                                str += '<div class="fruitHead">',
+                                str += '<div class="headLeft"></div>',
+                                str += '<h4>' + cur.parent_name + '</h4>',
+                                str += ' <a href="javascript:;" class="scanMore">查看更多</a>';
+                                str += '</div>';
+                                str += '<ul class="fruitList">';
+                                for (var j = 0; j < cur.goodsList.length; j++) {
+                                var curL = cur.goodsList[j];
+                                str2 += '<li class="speacialBrand">';
+                                    str2 += '<div class="fruitImg">';
+                                    str2 += "<img src=" + curL.small + ">";
+                                    str2 += '</div>';
+                                str2 += "<a href='javascript:;'>" + curL.name + "</a>";
+                                str2 += "<p> ￥ " + curL.price + "</p>";
+                                str2 += '<span>',
+                                    str2 += "<img src='./img/加入购物车@2x.png'>",
+                                    str2 += '</span>';
+                                str2 += '</li>';
+                            }
+                                str += str2;
+                                str += '</ul>';
+                            str += "</div>";*/
+                        }
+                         $(oFLOOR).html(str);
+                        var $fruitList=$('.fruitList');
 
 
 
+
+
+
+                        console.log($fruitList);
+                        setId(data);
+                    },
+                    error: function (result) {
+                        alert(result.status);
+                    }
+                }
+            );
+        }
+
+        /*遍历所有的li元素，设定元素的goodsId属性*/
+        function setId(data) {
+            window.setTimeout(function () {
+                var ary = [];
+                for (var j = 0; j < data.data.length; j++) {
+                    var cu = data.data[j];
+                    var $scanMore = $('.scanMore');
+
+                    $scanMore.eq(j).attr('val', cu.parent_id);
+                    for (var i = 0; i < cu.goodsList.length; i++) {
+                        var curId = cu.goodsList[i];
+                        ary.push(curId.goods_id);
+                    }
+                }
+                for (var i = 0; i < ary.length; i++) {
+                    var $specialBrand = $('.speacialBrand');
+                    $specialBrand.eq(i).attr('goodsId', ary[i])
+                }
+                linkToBrand($specialBrand);
+            }, 1000)
+
+        }
+
+        /*点击不同的li,实现从列表页到商品详情页的跳转*/
+        function linkToBrand(item) {
+            item.tap(function () {
+                var num = $(this).attr('goodsid');
+                window.location.href = './brand/brandList.html?id=' + num;
+            })
+        }
+
+
+        /*点击楼层区域查看更多*/
+        window.setTimeout(floorClick, 500);
+        function floorClick() {
+            var $scanMore = $('.scanMore');
+            $scanMore.tap(function () {
+                var num = $(this).attr('val');
+                window.location.href = './food.html?id=' + num;
+            })
+        }
+
+        return {
+            init: function () {
+                search();
+                banner();
+                shop();
+                special();
+                turnTo();
+                adverTise();
+                floor();
+            }
+        }
+    })();
+    module.init();
+    var header = document.getElementsByClassName('header')[0];
+
+
+    document.addEventListener('touch', function(event) {
+        // 判断默认行为是否可以被禁用
+        if (event.cancelable) {
+            // 判断默认行为是否已经被禁用
+            if (!event.defaultPrevented) {
+                event.preventDefault();
+            }
+        }
+    }, false);
 
 
 </script>

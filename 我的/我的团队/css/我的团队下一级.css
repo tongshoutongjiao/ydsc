@@ -1,0 +1,64 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.25rem;
+  width: 100%;
+  line-height: 2.25rem;
+  text-align: center;
+  font-size: .8rem;
+  background-color: #FFF;
+}
+header img {
+  top: 50%;
+  transform: translateY(-50%);
+  width: .5rem;
+  height: .9rem;
+  position: absolute;
+  left: .6rem;
+}
+section {
+  position: absolute;
+  top: 2.25rem;
+  bottom: 0;
+  overflow-y: auto;
+  width: 100%;
+}
+section .somebodymes0 {
+  line-height: 2.75rem;
+  border-top: 1px solid #f1f1f1;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-l {
+  float: left;
+  margin-left: .6rem;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-l .yindian {
+  width: 2rem;
+  height: 2rem;
+}
+section .somebodymes0 .somebodymes-top .somebodymes-top-r {
+  float: right;
+  margin-right: .6rem;
+}
+section .somebodymes0 .somebody-bottom {
+  text-align: center;
+}
+section .somebodymes1 {
+  line-height: 2.75rem;
+  border-top: 1px solid #cccccc;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-l {
+  float: left;
+  margin-left: .6rem;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-l .yindian {
+  width: 2rem;
+  height: 2rem;
+}
+section .somebodymes1 .somebodymes-top .somebodymes-top-r {
+  float: right;
+  margin-right: .6rem;
+}
+section .somebodymes1 .somebody-bottom {
+  text-align: center;
+}

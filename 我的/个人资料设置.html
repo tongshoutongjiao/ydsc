@@ -5,65 +5,125 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>个人资料</title>
-    <link rel="stylesheet" href="css/personalDate.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/个人资料设置.css">
+    <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+
+
 </head>
 <body>
-<section class="main" id="main">
-    <div class="header">
-        <h2 class="myCart">修改信息</h2>
-        <p class="greater">&lt</p>
-        <p class="editor">完成</p>
+<form action="">
+    <header>
+        <div class="header">
+            <h2 class="myCart">修改信息</h2>
+            <p class="greater">&lt</p>
+            <p class="editor">完成</p>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="content">
+            <div class="myPhoto">
+                <p>我的头像</p>
+                <label>
+                    <input type="file" class="touxiang" accept="image/*">
+                    <i class="icon"></i>
+                </label>
+            </div>
+            <div class="part1">
+                <div class="logIn">
+                    <label>
+                        <p>手机账号</p>
+                        <span id="telnum">13966681688</span>
+                        <input id="phnum" type="number">
+                    </label>
+                </div>
+                <div class="logIn logIn-two">
+                    <p>真实姓名</p>
+                    <label>
+                        <i class="oldname">Well</i>
+                        <input id="username" type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="part1">
+                <div class="logIn sex">
+                    <p>性别</p>
+                    <div class="part1-r">
+                        <span style="color: #fc3e32;" class="sexch">♀</span><span>女孩</span>
+                    </div>
+
+                </div>
+                <div class="logIn">
+                    <label class="address">
+                        <p>所在地</p>
+                        <span class="peopleaddress">广东省-广州市-天河区</span>
+                        <input type="text" id="useraddress">
+                    </label>
+                </div>
+                <div class="logIn email">
+                    <label>
+                        <p>邮箱</p>
+                        <span id="oldemail">1007335600@qq.com</span>
+                        <input id="newemail" type="email">
+                    </label>
+                </div>
+            </div>
+            <div class="part1">
+                <div class="logIn">
+                    <label>
+                        <p>个性签名</p>
+                        <span id="oldsignname">梅花三弄</span>
+                        <input id="newsignname" type="text" maxlength="10">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+ <div class="sexshadow">
+     <div class="sextankunag" style="background-color:#fff;">
+         <label id="labelone">
+             <input type="radio" name="sex" value="woman"><span style="color: #fc3e32;"
+                                                                class="sexch">♀</span><span>女孩</span>
+         </label>
+         <label id="labeltwo">
+             <input type="radio" name="sex" value="man"><span style="color: #fc3e32;"
+                                                              class="sexch">♂</span><span>男孩</span>
+         </label>
+     </div>
+ </div>
+    <div class="iphone" style="display: none;">
+        <div class="browser">
+            <!--选择地区-->
+            <section class="express-area">
+                <a id="expressArea" href="javascript:void(0)">
+                    <dl>
+                        <dt>选择地区：</dt>
+                        <dd>省 > 市 > 区/县</dd>
+                    </dl>
+                </a>
+            </section>
+            <!--选择地区弹层-->
+            <section id="areaLayer" class="express-area-box">
+                <header>
+                    <h3>选择地区</h3>
+                    <a id="backUp" class="back" href="javascript:void(0)" title="返回"></a>
+                    <a id="closeArea" class="close" href="javascript:void(0)" title="关闭"></a>
+                </header>
+                <article id="areaBox">
+                    <ul id="areaList" class="area-list"></ul>
+                </article>
+            </section>
+            <!--遮罩层-->
+            <div id="areaMask" class="mask"></div>
+            <script src="area.js"></script>
+        </div>
     </div>
-    <div class="content">
-        <div class="myPhoto">
-            <p>我的头像</p>
-            <i class="icon"></i>
-        </div>
-        <div class="part1">
-            <div class="logIn">
-                <p>登录帐号</p>
-                <i>1312345678</i>
-            </div>
-            <div class="logIn">
-                <p>真实姓名</p>
-                <i>1312345678</i>
-            </div>
-            <div class="logIn">
-                <p>身份证号</p>
-                <i>1312345678</i>
-            </div>
-            <div class="logIn">
-                <p>手机号</p>
-                <i>1312345678</i>
-            </div>
-        </div>
-        <div class="part1">
-            <div class="logIn sex">
-                <p>性别</p>
-                <span></span>
-                <i>女孩</i>
-            </div>
-            <div class="logIn">
-                <p>所在地</p>
-                <i>1312345678</i>
-            </div>
-            <div class="logIn">
-                <p>邮箱</p>
-                <i>1312345678</i>
-            </div>
-        </div>
-        <div class="part1">
-            <div class="logIn">
-                <p>个性签名</p>
-                <i>1312345678</i>
-            </div>
-        </div>
+    <footer>
         <div class="passWord">
             修改密码
         </div>
-    </div>
-
-</section>
+    </footer>
+</form>
 <script type="text/javascript">
     ~function (desW) {
         var winW = document.documentElement.clientWidth,
@@ -76,5 +136,7 @@
         document.documentElement.style.fontSize = n * 100 + "px";
     }(720);
 </script>
+<script src="./js/个人资料设置.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+.main{
+    margin: 0 auto;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 7.2rem;
+    height: 0.9rem;
+    background: #fff;
+    line-height: 0.9rem;
+}
+header h2{
+    text-align: center;
+    font-size: 0.34rem;
+}
+header a{
+    position: absolute;
+    float: right;
+    font-weight: bold;
+    top: 0.05rem;
+    left: 0.2rem;
+    font-size: 0.4rem;
+}
+.content{
+    position: absolute;
+    top: 0.9rem;
+    bottom: 0.01rem;
+    background: #f0f0f0;
+    width: 100%;
+    height: auto;
+}
+.success{
+    position: absolute;
+    top:2.5rem ;
+    left: 0.8rem;
+    width: 100%;
+    height: auto;
+}
+.success i{
+    display: inline-block;
+    width: 0.6rem;
+    left: 0.8rem;
+    height: 0.58rem;
+    background: url("../img/提交-(1)@2x.png");
+    background-size: 0.6rem 0.58rem;
+    margin-right: 0.4rem;
+}
+.success p{
+    display: inline-block;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    width: 4.4rem;
+    height: auto;
+}
+
+
+

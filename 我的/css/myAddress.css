@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+    position: relative;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.myCart{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 0.27rem;
+    color: #333;
+    font-size: 0.34rem;
+}
+.header a.greater{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.28rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: #333;
+}
+.content{
+    background: #f6f6f6;
+}
+.content .addList{
+    position: relative;
+    margin-bottom: 0.2rem;
+    height: 2.5rem;
+    background: #fff;
+}
+.content .addList .addTop{
+    position: relative;
+    height: 1.74rem;
+}
+.content .addList .addTop p{
+
+    padding-left: 0.2rem;
+    font-size: 0.26rem;
+    color: #333;
+}
+.content .addList .addTop p:nth-child(1){
+    height: 0.78rem;
+    line-height: 0.78rem;
+}
+.content .addList .addTop p:nth-child(2){
+    height: 0.36rem;
+    line-height: 0.36rem;
+}
+.content .addList .line{
+    position: absolute;
+    top:1.74rem ;
+    left: 0.4rem;
+    width: 6.8rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+}
+.content .addList .addBottom{
+    height: 0.75rem;
+    position: relative;
+}
+.content .addList .addBottom p{
+    position: absolute;
+    top:0.27rem ;
+    font-size: 0.23rem;
+    color: #888888;
+}
+.content .addList .addBottom p:nth-child(1){
+    left:0.65rem ;
+}
+.content .addList .addBottom p:nth-child(2){
+    right: 1.26rem;
+}
+.content .addList .addBottom p:nth-child(3){
+    right: 0.2rem;
+}
+.content .addList .addBottom i{
+    position: absolute;
+    top:0.27rem ;
+    height: 0.24rem;
+}
+.content .addList .addBottom i:nth-child(4){
+    left:0.2rem ;
+    width: 0.24rem;
+    background: url("../img/null.png");
+    background-size: 0.24rem 0.24rem;
+}
+.content .addList .addBottom i:nth-child(4).select{
+    background: url("../img/selected.png") no-repeat center center;
+    background-size: 0.24rem 0.24rem;
+}
+.content .addList .addBottom i:nth-child(5){
+    width: 0.24rem;
+    right: 1.84rem;
+    background: url("../img/edit.png") no-repeat center center;
+    background-size: 0.24rem 0.24rem;
+}
+.content .addList .addBottom i:nth-child(6){
+    width: 0.18rem;
+    right: 0.78rem;
+    background: url("../img/delete.png") no-repeat center center;
+    background-size: 0.18rem 0.24rem;
+}
+
+
+
+
+
+.main{
+    height: 100%;
+    position: relative;
+}
+.save{
+    position: absolute;
+    bottom: 0.09rem;
+    left: 1.6rem;
+    border-radius: 0.03rem;
+    width:4rem ;
+    height:0.8rem ;
+    background: #fc3e32;
+    border: none;
+    font-size: 0.34rem;
+    color: #ffffff;
+    line-height: 0.8rem;
+}
+.addBottom .edit{
+
+}

@@ -1,0 +1,214 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .13rem;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height:1.28rem;
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.myCart{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 0.27rem;
+    color: #333;
+    font-size: 0.34rem;
+}
+.header p.greater{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.28rem;
+    font-size:0.31rem ;
+    color: #333;
+}
+/*.content{
+    background: #f6f6f6;
+}*/
+.content .order{
+    background: #ffffff;
+    padding-left: 0.23rem;
+    padding-top: 0.24rem;
+    padding-bottom: 0.21rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.01rem;
+}
+.content .order p{
+    margin-bottom: 0.19rem;
+    font-size: 0.24rem;
+    height:0.24rem ;
+    color: #5b5b5b;
+}
+.content .brand{
+    position: relative;
+    height: 1.8rem;
+    padding: 0.24rem 0.18rem 0.24rem 0.24rem;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 0.11rem;
+}
+.content .brand .left{
+    float: left;
+    width: 1.76rem;
+    height:1.76rem ;
+    border: 0.02rem solid #f6f6f6;
+}
+.content .brand .left img{
+    width: 100%;
+    height: 100%;
+}
+.content .brand .right{
+
+    float: right;
+    padding-left: 0.2rem;
+    height: 1.76rem;
+    width:4.78rem;
+}
+.content .brand .right a{
+    display: block;
+    width:3.57rem ;
+    font-size: 0.23rem;
+    line-height: 0.36rem;
+    color: #333;
+}
+.content .brand .right p{
+    font-size: 0.23rem;
+    color: #9e9e9e;
+    line-height: 0.39rem;
+}
+.content .brand .right span{
+    position: absolute;
+    right:0.18rem ;
+    top:0.69rem ;
+    color: #fc3e32;
+    font-size: 0.2rem;
+}
+ .brandDown{
+    overflow: hidden;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    background: #fff;
+    margin-top: 0.01rem;
+
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.brandDown p:nth-child(1){
+    display: inline-block;
+    float: left;
+    font-size: 0.24rem;
+
+}
+.brandDown p:nth-child(2){
+    display: inline-block;
+    float: right;
+    font-size: 0.24rem;
+
+}
+.wrapper{
+    margin-bottom:0.2rem ;
+}
+
+
+
+
+
+
+
+    /*construction*/
+.content .construction{
+    position: relative;
+    height: 5rem;
+    background: #ffffff;
+}
+.content .construction input{
+    padding-left: 0.23rem;
+    font-size: 0.25rem;
+    height: 0.63rem;
+    line-height: 0.63rem;
+    border: none;
+}
+.content .construction .prove{
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.2rem;
+    width: 6.8rem;
+    height: 0.6rem;
+    border: 0.01rem dashed #333;
+}
+.content .construction .prove i{
+    position: absolute;
+    left: 0.19rem;
+    top: 0.14rem;
+    width: 0.4rem;
+    height: 0.31rem;
+    background: url("../img/goods/形状-23-拷贝-2.png");
+    background-size: 0.4rem 0.31rem;
+}
+.content .construction .prove p{
+    position: absolute;
+    font-size:0.24rem ;
+    color: #333;
+    line-height: 0.6rem;
+    right:0.2rem ;
+    top: 0;
+}
+body{
+    position: relative;
+}
+.content input.commit{
+    position: absolute;
+    bottom: 0.09rem;
+    left: 1.35rem;
+    width: 4.5rem;
+    height: 0.8rem;
+    background: #fc3e32;
+    color: #ffffff;
+    font-size: 0.32rem;
+    text-align: center;
+    border-radius: 0.02rem;
+    border: none;
+}
+
+
+
+
+

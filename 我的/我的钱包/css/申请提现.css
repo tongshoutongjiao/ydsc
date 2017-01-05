@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    outline: none;
+    border: none;
+}
+html {
+    font-size: 100px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    font-size: .14rem;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+}
+
+.head p{
+    display: inline-block;
+    font-size: 0.34rem;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    line-height: 0.9rem;
+}
+.head a{
+    position: absolute;
+    top: 0;
+    left:0.2rem ;
+    font-size: 0.36rem;
+    line-height: 0.9rem;
+}
+.content{
+    position: absolute;
+     top:1.1rem;
+    bottom: 0.01rem;
+
+    width: 6.8rem;
+    height: auto;
+}
+footer{
+    position: absolute;
+    bottom: 0.01rem;
+}
+div.list{
+    height: 2.64rem;
+    width: 100%;
+    background: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+div.list div{
+    position: relative;
+    height: 0.88rem;
+    font-size: 0.28rem;
+
+    border-bottom: 0.01rem solid #f0f0f0;
+}
+div.list div input{
+    display: inline-block;
+    width: 81%;
+    overflow-x: hidden;
+    height: 0.8rem;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+}
+div.list div p.choose{
+    position: absolute;
+    left: 0rem;
+    height: 0.88rem;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+}
+
+div.list div div.select{
+    position: absolute;
+    right:0.4rem ;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+    height: 100%;
+}
+div.list div span{
+    position: absolute;
+    right: 0.2rem;
+    font-size: 0.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+
+}
+div.list div p{
+    display: inline-block;
+}
+input::-webkit-input-placeholder{
+    text-align: right;
+}
+
+.cardNumber p{
+    font-size: 0.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.cardNumber input{
+    display: inline-block;
+    width: 81%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+}
+.realName input{
+    background: #fff;
+}
+.content .cash{
+    margin-top: 0.5rem;
+    background: #fff;
+    height: 0.88rem;
+    width: 6.8rem;
+    line-height: 0.88rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.content .cash p{
+    font-size: 0.28rem;
+    display: inline-block;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.content .cash input{
+    display: inline-block;
+    width:75%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+}
+input.money::-webkit-input-placeholder{
+    text-align: left;
+}
+.declare{
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    width: 6.8rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    height: auto;
+}
+footer{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width:4.5rem ;
+    height: 0.8rem;
+}
+footer input{
+    position: absolute;
+    bottom: 0.1rem;
+    width:4.5rem ;
+    height: 0.8rem;
+    background: #fc3e32;
+    color: #fff;
+    border-radius: 0.02rem;
+    font-size: 0.34rem;
+    text-align: center;
+}
+
+
+
+
+

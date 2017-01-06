@@ -73,7 +73,7 @@ header {
     left: 2.37rem;
     width: 0.23rem;
     height: 0.23rem;
-    background: url("../../首页/img/首页img/搜索-(1)@2x.png") center center no-repeat #eee;
+    background: url("..//img/首页img/搜索-(1)@2x.png") center center no-repeat #eee;
     background-size: 0.23rem 0.23rem;
     color: #eee;
 }
@@ -170,7 +170,7 @@ header {
 
 }
 .clearSearch p:nth-child(1){
-    background: url("../../首页/img/goods/rubbish-2.png") no-repeat center center ;
+    background: url("..//img/goods/rubbish-2.png") no-repeat center center ;
     width: 0.2rem;
     height: 0.24rem;
     background-size: 0.2rem 0.24rem;

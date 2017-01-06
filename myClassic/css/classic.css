@@ -35,6 +35,11 @@ html, body {
     overflow: hidden;
     -webkit-user-select: none;
 }
+.main{
+    margin: 0 auto;
+    font-size: .14rem;
+}
+
 
 
 
@@ -211,13 +216,15 @@ section{
     transform:translateX(-50%)
 }
 .selectLast div.lastList a{
-
     display: block;
-    width:100%;
-    bottom:0.15rem ;
+    width: 100%;
+    bottom: 0.15rem;
     font-size: 0.22rem;
     position: absolute;
-  text-align: center;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 

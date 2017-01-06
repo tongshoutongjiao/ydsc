@@ -319,7 +319,7 @@
 
             </li>
             <a href="javascript:;">首页</a>
-            <a href="../我的分类/myClassic.html">分类</a>
+            <a href="../myClassic/myClassic.html">分类</a>
             <a href="../我的购物车/cart.html" class="myShoppingCart">购物车</a>
             <a href="../我的/我的.html">我的</a>
         </ul>
@@ -435,7 +435,7 @@
             $showCase = $adv.children('.showcase');
             $showCase.tap(function () {
                 var num = $(this).attr('val');
-                location.href = './吃货专区.html?id=' + num;
+                location.href = './special.html?id=' + num;
             })
         }
 
@@ -659,7 +659,6 @@
     })();
     module.init();
     var header = document.getElementsByClassName('header')[0];
-
 
     document.addEventListener('touch', function(event) {
         // 判断默认行为是否可以被禁用

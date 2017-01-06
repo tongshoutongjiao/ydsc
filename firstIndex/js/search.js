@@ -21,7 +21,7 @@ $('.clearSearch').tap(function () {
 //点击搜索框输入搜索内容按下搜索后搜索历史添加搜索内容 点击取消返回分类页面
     $('.searchbtn').tap(function () {
         if($('.search').val()==''){
-            window.location.href='../我的分类/myClassic.html'
+            window.location.href='../../myClassic/myClassic.html'
         }else{
             $(".searchbtn").html('搜索');
             var text = $('.search').val();//输入框输入内容

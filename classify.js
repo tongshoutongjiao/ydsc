@@ -32,7 +32,7 @@ window.onload = function () {
 //点击分类页搜索部分网页跳转
 var $search = $('.search');
 $search.tap(function () {
-    window.location.href = '../首页/search.html'
+    window.location.href = 'firstIndex/search.html'
 });
 
 

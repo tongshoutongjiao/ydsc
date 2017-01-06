@@ -25,7 +25,7 @@ var classic=(function () {
         //点击分类页搜索部分网页跳转search
         var $search = $('.search');
         $search.tap(function () {
-            window.location.href = '../首页/search.html'
+            window.location.href = '../../firstIndex/search.html'
         });
     }
     //点击相应的分类商品，通过它的id值跳转到相应的分类详情页面
